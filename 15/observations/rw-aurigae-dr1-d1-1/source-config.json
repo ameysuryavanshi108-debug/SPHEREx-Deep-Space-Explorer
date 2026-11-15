@@ -1,0 +1,32 @@
+{
+  "id": "rw-aurigae-dr1-d1-1",
+  "name": "RW Aurigae field \u00b7 real SPHEREx",
+  "ra": 76.95658639398296,
+  "dec": 30.40129178629395,
+  "coordinateEpoch": "ICRS fixed field at midpoint proper-motion guide position; no observer parallax correction",
+  "sourceRelease": "dr1",
+  "width": 48,
+  "height": 48,
+  "pixelScaleArcsec": 3.075,
+  "interpretation": "Actual SPHEREx pixels around RW Aurigae. No significant motion or brightness change is claimed. A catalog guide position is not a verified source identification.",
+  "frames": [
+    {
+      "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2025W36_1A/l2b-v27-2026-232/1/level2_2025W36_1A_0606_2D1_spx_l2b-v27-2026-232.fits",
+      "expectedObservationId": "2025W36_1A_0606_2",
+      "spectralCalibration": {
+        "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/1/spectral_wcs_D1_spx_cal-swcs-v5-2026-191.fits",
+        "sha256": "44fb48b236e25a99d42c8986da0064cc58359527e1fc76e182eda52371a1ae23"
+      },
+      "sha256": "47d007ed71146072a38fab9b1859070ba6131e4ec002822db4310a610595478c"
+    },
+    {
+      "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2026W10_1A/l2b-v27-2026-229/1/level2_2026W10_1A_0445_2D1_spx_l2b-v27-2026-229.fits",
+      "expectedObservationId": "2026W10_1A_0445_2",
+      "spectralCalibration": {
+        "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/1/spectral_wcs_D1_spx_cal-swcs-v5-2026-191.fits",
+        "sha256": "44fb48b236e25a99d42c8986da0064cc58359527e1fc76e182eda52371a1ae23"
+      },
+      "sha256": "2478113bc7089036ae004a43a31d885724b1f5dd0de02198a897fb2f07588b10"
+    }
+  ]
+}

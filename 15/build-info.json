@@ -1,0 +1,23 @@
+{
+  "version": "2.3.1",
+  "profile": "public-observations",
+  "release": "CLEAN-OBSERVATION-MAP-UI",
+  "date": "2026-11-15",
+  "sourceCommit": null,
+  "assets": [
+    "dataset-BBBwF1hk.js",
+    "fitsWorker-tN7p5mTi.js",
+    "index-BXmFav6o.css",
+    "index-dZu8L8tj.js",
+    "react-DKWnSxDW.js",
+    "three-BYCuAVLq.js"
+  ],
+  "assetSha256": {
+    "dataset-BBBwF1hk.js": "4456b48db04d98a4b9e9a3b1dab11de73d694dbc5a1a7e8612589d046d2ae52b",
+    "fitsWorker-tN7p5mTi.js": "b0ccbc515d30ee2dbef016e69007fe10798ba8ea6045d386b5f8794de657f11d",
+    "index-BXmFav6o.css": "a714af4f9b84653f39395a7210c9c7e674914f6bbe4bd375ef365ef25e24d655",
+    "index-dZu8L8tj.js": "5ad9e9357f5c2c14184a23df7245a979eaa9b8eed4d675e1b519f55b31726779",
+    "react-DKWnSxDW.js": "9099e5aa9bdc1c8cb211fb1e99b8c3762e8deb9f9115af25f6c3632db53f205c",
+    "three-BYCuAVLq.js": "633bb6ac4307dcb50c308a607b051309ed06d4ee3a08fdd56c9b030b4a3c844f"
+  }
+}

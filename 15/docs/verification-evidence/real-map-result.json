@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "default real map WebGL rendered",
+    "rotation and zoom change rendered view",
+    "Barnard field selector opens real single image without blink",
+    "2D real sky marker selection opens RW Aurigae two-date pair"
+  ],
+  "errors": []
+}

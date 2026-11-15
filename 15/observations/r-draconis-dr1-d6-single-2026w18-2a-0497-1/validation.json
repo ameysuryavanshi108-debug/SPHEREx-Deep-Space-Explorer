@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "pairId": "r-draconis-dr1-d6-single-2026w18-2a-0497-1",
+  "scope": "Numerical visual-comparison QA; not a moving-source or variability detection",
+  "width": 64,
+  "height": 64,
+  "pixelScaleArcsec": 6.15,
+  "sharedDisplay": {
+    "min": 0.25401626944913414,
+    "max": 17.12385215397229,
+    "unit": "MJy/sr"
+  },
+  "frames": [
+    {
+      "id": "2026W18_2A_0497_1",
+      "observedAt": "2026-05-02T14:05:45.767Z",
+      "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2026W18_2A/l2b-v27-2026-244/6/level2_2026W18_2A_0497_1D6_spx_l2b-v27-2026-244.fits",
+      "sourceSha256": "fab39bae0604a046b1b57e6f3828416babb71844fbabc5eefaa5042f928a8780",
+      "arraySha256": "8b718933fca39873135823b685916c0aa7f9d5f26902cac377ffff87610da18e",
+      "targetWavelengthUm": 4.457109170654109,
+      "targetBandwidthUm": 0.03560341496650708,
+      "wavelengthRangeKeptUm": [
+        4.444922615261059,
+        4.469222387505677
+      ],
+      "maskedFraction": 0.0703125,
+      "wcsRoundTripMaxPixel": 1.7900529219453718e-08,
+      "psfAtFieldCenter": {
+        "zoneIndex": 387,
+        "samplingArcsec": 1.23,
+        "encircled50RadiusArcsec": 4.3859817468651725,
+        "encircled80RadiusArcsec": 7.362359093098888,
+        "momentEquivalentFwhmArcsec": 10.341266474140319,
+        "model": "Embedded DR1/QR3 effective PSF; nearest native detector zone, positive-clipped for shape diagnostic only; no matching kernel applied",
+        "normalizationBeforeClipping": 1.0
+      },
+      "borderMedianMJySr": 0.35892357,
+      "zodiMedianMJySr": 0.20965214633458595,
+      "borderMinusZodiMedianMJySr": 0.14955025010692427,
+      "medianPropagatedDiagonalVariance": 0.001110162586563645,
+      "neighborNoiseCorrelation": {
+        "vertical": 0.2630839042500584,
+        "horizontal": 0.29433793811295006
+      },
+      "sampledFlagCounts": {
+        "TRANSIENT": 92,
+        "OVERFLOW": 11,
+        "SUR_ERROR": 70,
+        "NONFUNC": 21,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 3,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 4096,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 83,
+        "SNOWBALL": 0,
+        "HALO": 49
+      },
+      "directBilinearVsPreparedMaxMJySr": 5.6638697287780815e-08
+    }
+  ],
+  "comparisons": [],
+  "varianceAssumption": "Squared bilinear weights with independent native-pixel noise. Adjacent-output covariance reported; no independent pixel significance is claimed. Native covariance and calibration terms remain unknown.",
+  "zodiacalTreatment": "Provided ZODI model inspected but not subtracted. IMAGE remains the calibrated archive value.",
+  "orientation": "Astropy TAN north-up/east-left; JSON row order flipped from FITS to display. WCS round-trip tests coordinate mechanics, not external astrometry.",
+  "scienceConclusion": "A single real observation for qualified visual inspection. Target center is quality-flagged; no motion, variability or confirmed target detection is established."
+}

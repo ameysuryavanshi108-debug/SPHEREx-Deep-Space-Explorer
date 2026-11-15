@@ -1,0 +1,64 @@
+{
+  "base": "http://localhost:5173",
+  "checks": [
+    {
+      "name": "Home WebGL sphere animation and three-entry navigation",
+      "passed": true,
+      "evidence": {
+        "canvasCount": 1,
+        "links": [
+          "Home",
+          "3D Sky Map",
+          "Blink Comparator"
+        ],
+        "animationFramesDiffer": true
+      }
+    },
+    {
+      "name": "Map rotates, zooms, and keyboard selects a modeled catalog direction",
+      "passed": true,
+      "evidence": {
+        "selected": "SPX-ISO-0368",
+        "canvasFramesDiffer": true
+      }
+    },
+    {
+      "name": "Real RW Aurigae pair metadata, blink, pause, synchronized zoom/pan, brightness/contrast/reset",
+      "passed": true,
+      "evidence": {
+        "dates": [
+          "2025-09-03T17:24:32.428Z",
+          "2026-03-04T07:56:46.935Z"
+        ],
+        "blinkDates": [
+          "2025-09-03T17:24:32.428Z",
+          "2026-03-04T07:56:46.935Z"
+        ],
+        "resetUrl": "http://localhost:5173/blink?source=real&pair=rw-aurigae-dr1-d1-1&view=side&epoch=2&zoom=1&panX=0&panY=0&brightness=0&contrast=1&stretch=linear"
+      }
+    },
+    {
+      "name": "Mobile Home/Map/Comparator layout and navigation",
+      "passed": true,
+      "evidence": [
+        {
+          "route": "/",
+          "scroll": 390,
+          "width": 390
+        },
+        {
+          "route": "/sky-map",
+          "scroll": 390,
+          "width": 390
+        },
+        {
+          "route": "/blink?source=real&pair=rw-aurigae-dr1-d1-1",
+          "scroll": 390,
+          "width": 390
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,23 @@
+{
+  "base": "http://localhost:4173",
+  "checks": [
+    {
+      "name": "Genuine complete2040x2040 DR1 MEF reads real IMAGE in Web Worker and previews",
+      "passed": true,
+      "evidence": {
+        "elapsedMs": 2028,
+        "canvasDimensions": [
+          512,
+          512
+        ],
+        "metadataText": "YOUR SKY, YOUR DATA\n\nOpen real FITS observations. Files stay on your device.\n\nClose uploads\nUpload\n→\nValidate\n→\nPreview\n→\nCompare\nUpload A\n0f6325f9ac99c118c4c9f9cfcec6e35ab85e4792a132d2aeae08acb770ac7ed6.fits\nPreview ready · 2040 × 2040\nUpload B\nDrop a FITS image here\n\nUncompressed image HDUs · up to 64 MiB per file · local processing\n\nCompare A + B\n\nTry genuine DR1 cutouts: Download A · Download B · Provenance ↗\n\nObservation A is ready to preview. Upload B to check a comparison.\n\nBlink / play\nA / B\n1.0×\nImage\nReset\nObservation A\n2025-09-03T17:24:32.428Z\nScroll or + / − to zoom\nWavelength not provided · 1\nNative pixel orientation · not north-up\nReference RA 75.29126° · Dec 29.93414°\nScientific Details\n\nUploaded files are user supplied; NASA provenance is not independently authenticated. Previews use an asinh display stretch. Masked or invalid pixels are black. A compatible pair uses one common display scale and a shared celestial grid. This is a visual inspection tool, not a detection or motion measurement.\n\nObservation A · 0f6325f9ac99c118c4c9f9cfcec6e35ab85e4792a132d2aeae08acb770ac7ed6.fits\nDate / time\n2025-09-03T17:24:32.428Z\nObservation ID\n2025W36_1A_0606_2\nWavelength (µm)\nNot provided\nBandwidth (µm)\nNot provided\nDetector\n1\nRelease\nNot provided\nProcessing version\n7.0.5\nFlux unit\nMJy / sr\nImage HDU\nIMAGE\nOriginal dimensions\n2040 × 2040\nReference RA / Dec (°)\n75.291261, 29.934137\nWCS\nRead from FITS header\nQuality flags\nAll flags rejected except header-defined SOURCE and FULLSAMPLE; invalid flux/variance rejected.\nUncertainty\nVariance image present\nMasked pixels\n3.5%\nCalibrated wavelength/bandwidth is missing. SPHEREx WCS-WAVE is a lookup table, not an independently calibrated CWAVE/CBAND image.\nProcessing release is absent; a two-image comparison cannot assume the release from a filename.\n\nSupported FITS formats and comparison limitations ↗"
+      }
+    },
+    {
+      "name": "File above64MiB rejected before parser; valid A remains previewed",
+      "passed": true,
+      "evidence": "This file is too large. Choose an uncompressed FITS image up to 64 MiB."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,77 @@
+{
+  "base": "http://localhost:4173",
+  "checks": [
+    {
+      "name": "Actual FITS A upload: immediate single preview and metadata",
+      "passed": true,
+      "evidence": {
+        "canvasCount": 1,
+        "observation": "2025W36_1A_0606_2",
+        "dimensions": "36x36"
+      }
+    },
+    {
+      "name": "Actual FITS B upload: validate overlap/calibration and WCS reproject into matching FOV",
+      "passed": true,
+      "evidence": {
+        "sizes": [
+          [
+            36,
+            36
+          ],
+          [
+            36,
+            36
+          ]
+        ],
+        "validation": "Compatible pair · WCS aligned for visual comparison."
+      }
+    },
+    {
+      "name": "Uploaded pair blink/pause, synchronized zoom/pan, brightness/contrast/reset",
+      "passed": true,
+      "evidence": {
+        "blinkLabels": [
+          "Uploaded observation A: rw-aurigae-A.fits",
+          "Uploaded observation B: rw-aurigae-B.fits"
+        ],
+        "syncedTransforms": [
+          "translate(-5%, 0%) scale(1.5)",
+          "translate(-5%, 0%) scale(1.5)"
+        ]
+      }
+    },
+    {
+      "name": "Mobile uploaded preview has no horizontal overflow",
+      "passed": true,
+      "evidence": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "Incompatible real-pixel test derivative keeps both previews and disables blink",
+      "passed": true,
+      "evidence": "Blink unavailable · both original previews remain visible.\n\nFewer than 64 common unflagged pixels remain with compatible wavelength.\nMore than 10% of common usable pixels have incompatible wavelength coverage."
+    },
+    {
+      "name": "Corrupted FITS rejected without fake preview",
+      "passed": true,
+      "evidence": "This file is too short to contain a FITS header."
+    },
+    {
+      "name": "Actual FITS drag-and-drop restores valid B preview",
+      "passed": true,
+      "evidence": "Real local FITS bytes delivered via drop event and read by worker"
+    },
+    {
+      "name": "Local processing sends no image upload requests",
+      "passed": true,
+      "evidence": {
+        "nonGetRequests": [],
+        "remoteRequests": []
+      }
+    }
+  ],
+  "errors": []
+}

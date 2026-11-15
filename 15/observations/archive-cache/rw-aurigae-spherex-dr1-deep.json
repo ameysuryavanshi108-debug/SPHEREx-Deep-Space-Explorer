@@ -1,0 +1,15 @@
+{
+  "query": {
+    "ra": 76.95658772937921,
+    "dec": 30.40128854759766,
+    "radius": 0.12,
+    "collection": "spherex_dr1_deep"
+  },
+  "targetId": "rw-aurigae",
+  "rows": [],
+  "checkedAt": "2026-11-13T04:32:55.979343+00:00",
+  "scope": "radius",
+  "truncated": false,
+  "url": "https://irsa.ipac.caltech.edu/SIA?COLLECTION=spherex_dr1_deep&POS=circle+76.95658772937921+30.40128854759766+0.12&RESPONSEFORMAT=VOTABLE",
+  "responseSha256": "fa538a0a6daf723452a8645c90efb86c1d6ddc68903b280bed9fb13ca1cdd3bd"
+}

@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-13T04:45:33.785490+00:00",
+  "singles": [
+    {
+      "id": "barnards-star-qr3-d5-single-2026w34-1a-0363-1",
+      "name": "Barnard\u2019s Star \u00b7 real observation",
+      "ra": 269.4461272523949,
+      "dec": 4.770015938322478,
+      "frame": "ICRS",
+      "coordinateEpoch": "ICRS field centered on per-epoch proper-motion guide; no observer parallax correction",
+      "sourceKind": "observation",
+      "status": "ready",
+      "sourceRelease": "SPHEREx Quick Release 3 (IRSA)",
+      "sourceDoi": "https://doi.org/10.26131/IRSA662",
+      "credit": "SPHEREx / NASA / JPL-Caltech; served by Caltech/IPAC IRSA",
+      "acknowledgementUrl": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_qr.html",
+      "width": 64,
+      "height": 64,
+      "pixelScaleArcsec": 6.15,
+      "commonDisplay": {
+        "min": 0.16366634006486497,
+        "max": 5.618189170867704,
+        "unit": "MJy/sr"
+      },
+      "alignment": {
+        "method": "Astropy celestial WCS with SIP distortion; bilinear reprojection onto one ICRS TAN grid",
+        "orientation": "north-up, east-left",
+        "rowOrder": "north-to-south",
+        "residualAstrometryArcsec": null,
+        "wcsHeader": {
+          "WCSAXES": 2,
+          "CRPIX1": 32.5,
+          "CRPIX2": 32.5,
+          "CDELT1": -0.0017083333333333,
+          "CDELT2": 0.0017083333333333,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 269.44612725239,
+          "CRVAL2": 4.7700159383225,
+          "LONPOLE": 180.0,
+          "LATPOLE": 4.7700159383225,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        }
+      },
+      "quality": {
+        "commonValidFraction": 0.958984375,
+        "wavelengthDifferenceAtTargetUm": 0.0,
+        "maxWavelengthDifferenceBandwidthFraction": 0.25,
+        "maxKeptWavelengthDifferenceUm": 0.0,
+        "motionMeasured": false,
+        "significanceVerified": false,
+        "scientificDifferencingReady": false,
+        "differenceBlockers": [
+          "Independent residual registration not measured",
+          "PSF matching not performed",
+          "Background and photometric corrections not validated",
+          "Resampling noise covariance not modeled"
+        ],
+        "targetCenterMasked": true
+      },
+      "warnings": [
+        "Real SPHEREx observation. Pixels flagged by the archive or with invalid variance remain masked.",
+        "One observation cannot establish motion or variability. This image is not a two-date comparison.",
+        "Per-pixel wavelengths use the pinned, detector-matched CWAVE/CBAND calibration. No 102-channel spectrum is inferred from one frame.",
+        "IMAGE retains archive MJy/sr values. Zodiacal background has not been subtracted. Reprojection interpolates pixels and correlates noise.",
+        "The target-center pixels are flagged or invalid. The surrounding field is shown; the masked core cannot support a target brightness or movement measurement."
+      ],
+      "interpretation": "One real observation of the field around Barnard\u2019s Star. The target core is quality-flagged; no motion, brightness change or confirmed target detection is claimed.",
+      "documentationUrls": [
+        "https://caltech-ipac.github.io/irsa-tutorials/spherex-intro/",
+        "https://caltech-ipac.github.io/spherex-archive-documentation/spherex-data-access/",
+        "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/SPHEREx_Expsupp_QR.pdf"
+      ],
+      "frames": [
+        {
+          "id": "2026W34_1A_0363_1",
+          "observedAt": "2026-08-18T20:48:38.781Z",
+          "mjd": 61270.867115521,
+          "wavelengthUm": 4.2905468557803035,
+          "bandwidthUm": 0.037169308444715755,
+          "detector": 5,
+          "processingVersion": "7.0.5",
+          "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/qr3/level2/2026W34_1A/l2b-v27-2026-243/5/level2_2026W34_1A_0363_1D5_spx_l2b-v27-2026-243.fits",
+          "sha256": "0b571db86ecca4f1c9e6990efdc9a60d7ef29185b944c39b434014e6d10825c5",
+          "spectralCalibration": {
+            "method": "CWAVE/CBAND; bilinear interpolation at zero-based detector coordinates [y,x]",
+            "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/5/spectral_wcs_D5_spx_cal-swcs-v5-2026-191.fits",
+            "sha256": "3361428284bddad1dcdce42081ebfbd225acb0b19f6caa94fba3e133bbabfc1c",
+            "orientation": "sky",
+            "association": "Pinned product; X/Y/VALUES lookup table exactly matches exposure"
+          },
+          "extensions": {
+            "IMAGE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "FLAGS": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": ""
+            },
+            "VARIANCE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy2 / sr2"
+            },
+            "ZODI": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "EPSF": {
+              "shape": [
+                441
+              ],
+              "unit": null
+            },
+            "WCS-WAVE": {
+              "shape": [
+                1
+              ],
+              "unit": null
+            }
+          },
+          "sourceWcsHeader": {
+            "WCSAXES": 2,
+            "CRPIX1": 1020.5,
+            "CRPIX2": 1020.5,
+            "PC1_1": 0.00170403841218,
+            "PC1_2": -6.02364132894e-05,
+            "PC2_1": -5.97968375916e-05,
+            "PC2_2": -0.00170796675629,
+            "CDELT1": 1.0,
+            "CDELT2": 1.0,
+            "CUNIT1": "deg",
+            "CUNIT2": "deg",
+            "CTYPE1": "RA---TAN-SIP",
+            "CTYPE2": "DEC--TAN-SIP",
+            "CRVAL1": 267.84214983,
+            "CRVAL2": 3.87890002855,
+            "LONPOLE": 180.0,
+            "LATPOLE": 3.87890002855,
+            "TIMESYS": "UTC",
+            "MJDREF": 0.0,
+            "DATE-OBS": "2026-08-18T20:48:38.781",
+            "MJD-OBS": 61270.867115521,
+            "DATE-BEG": "2026-08-18T20:48:38.781",
+            "MJD-BEG": 61270.867115521,
+            "DATE-AVG": "2026-08-18T20:49:36.340",
+            "MJD-AVG": 61270.86778171,
+            "DATE-END": "2026-08-18T20:50:33.899",
+            "MJD-END": 61270.868447899,
+            "XPOSURE": 113.5826,
+            "TELAPSE": 118.1873,
+            "RADESYS": "ICRS",
+            "A_ORDER": 3,
+            "A_0_0": -0.120849718757,
+            "A_0_1": -8.20203014652e-05,
+            "A_0_2": -2.96187317889e-09,
+            "A_0_3": 6.71396326304e-12,
+            "A_1_0": -3.07455636838e-07,
+            "A_1_1": 3.87121326628e-06,
+            "A_1_2": 6.07970820989e-10,
+            "A_2_0": 1.88816804926e-08,
+            "A_2_1": -2.02653023196e-11,
+            "A_3_0": 5.12047186178e-10,
+            "B_ORDER": 3,
+            "B_0_0": -0.95688653824,
+            "B_0_1": -0.000143869853065,
+            "B_0_2": 1.92953469995e-06,
+            "B_0_3": 4.76372283165e-10,
+            "B_1_0": 0.000605540443521,
+            "B_1_1": -2.75767132779e-08,
+            "B_1_2": -2.04321836055e-11,
+            "B_2_0": 6.54743619225e-06,
+            "B_2_1": 6.06537690634e-10,
+            "B_3_0": -2.10690275275e-11,
+            "AP_ORDER": 3,
+            "AP_0_0": 0.120969050149,
+            "AP_0_1": 8.15978075887e-05,
+            "AP_0_2": 2.37149219491e-09,
+            "AP_0_3": -6.83290396245e-12,
+            "AP_1_0": -4.29919278517e-06,
+            "AP_1_1": -3.85554922315e-06,
+            "AP_1_2": -5.83516436105e-10,
+            "AP_2_0": -1.74797000351e-08,
+            "AP_2_1": 2.0739503006e-11,
+            "AP_3_0": -4.85079417037e-10,
+            "BP_ORDER": 3,
+            "BP_0_0": 0.952147658619,
+            "BP_0_1": 0.000139296347151,
+            "BP_0_2": -1.91842692863e-06,
+            "BP_0_3": -4.67563083308e-10,
+            "BP_1_0": -0.000607102032086,
+            "BP_1_1": 3.03597443685e-08,
+            "BP_1_2": 2.10789859573e-11,
+            "BP_2_0": -6.53027827155e-06,
+            "BP_2_1": -5.28875061657e-10,
+            "BP_3_0": 2.16345711149e-11
+          },
+          "zodiacalSubtractionApplied": false,
+          "varianceUsedForMaskOnly": true,
+          "quality": {
+            "sourceMaskedFraction": 0.01933559207996924,
+            "flagPolicy": "All bits rejected except header-defined SOURCE and FULLSAMPLE; invalid IMAGE/VARIANCE also rejected",
+            "flagDefinitions": {
+              "TRANSIENT": 1,
+              "OVERFLOW": 2,
+              "SUR_ERROR": 4,
+              "NONFUNC": 64,
+              "DICHROIC": 128,
+              "MISSING_DATA": 512,
+              "HOT": 1024,
+              "COLD": 2048,
+              "FULLSAMPLE": 4096,
+              "PHANMISS": 16384,
+              "NONLINEAR": 32768,
+              "PERSIST": 131072,
+              "OUTLIER": 524288,
+              "CROSSTALK": 1048576,
+              "SOURCE": 2097152,
+              "GHOST": 4194304,
+              "GHOST_FPA": 8388608,
+              "GHOST_EXT": 16777216,
+              "STREAK": 33554432,
+              "BLOOM": 67108864,
+              "SNOWBALL": 134217728,
+              "HALO": 268435456
+            },
+            "maskedFraction": 0.041015625,
+            "wavelengthMinUm": 4.279196427935277,
+            "wavelengthMaxUm": 4.301870536048013
+          },
+          "dataUrl": "/observations/barnards-star-qr3-d5-single-2026w34-1a-0363-1/frame-1.json",
+          "dataSha256": "09cf7b9c2a7928ea0094c551ec7db8925b89d409bebaf7a55b973a86b4df3684"
+        }
+      ],
+      "comparisonUnavailableReason": "Reviewed pairs failed target-quality checks. Showing one real observation with flagged pixels masked.",
+      "targetId": "barnards-star",
+      "targetGuide": {
+        "sourceUrl": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Barnard%27s+Star",
+        "note": "Proper motion only. Annual parallax, perspective acceleration and binary orbital motion are not fitted. Guide coordinates do not establish a detection.",
+        "positions": [
+          {
+            "observedAt": "2026-08-18T20:48:38.781Z",
+            "ra": 269.4461272523949,
+            "dec": 4.7700159383224765
+          }
+        ]
+      },
+      "validation": {
+        "reportUrl": "/observations/barnards-star-qr3-d5-single-2026w34-1a-0363-1/validation.json",
+        "matchedSources": 0,
+        "residualRmsArcsec": null,
+        "medianOffsetArcsec": null,
+        "differenceBlockers": [
+          "Only one observation is displayed",
+          "Target-center quality flags prevent a validated comparison"
+        ]
+      }
+    },
+    {
+      "id": "r-draconis-dr1-d6-single-2026w18-2a-0497-1",
+      "name": "R Draconis \u00b7 real observation",
+      "ra": 248.16722823546203,
+      "dec": 66.75502439479614,
+      "frame": "ICRS",
+      "coordinateEpoch": "ICRS field centered on per-epoch proper-motion guide; no observer parallax correction",
+      "sourceKind": "observation",
+      "status": "ready",
+      "sourceRelease": "SPHEREx Data Release 1 (IRSA)",
+      "sourceDoi": "https://doi.org/10.26131/IRSA678",
+      "credit": "SPHEREx / NASA / JPL-Caltech; served by Caltech/IPAC IRSA",
+      "acknowledgementUrl": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_dr1.html",
+      "width": 64,
+      "height": 64,
+      "pixelScaleArcsec": 6.15,
+      "commonDisplay": {
+        "min": 0.25401626944913414,
+        "max": 17.12385215397229,
+        "unit": "MJy/sr"
+      },
+      "alignment": {
+        "method": "Astropy celestial WCS with SIP distortion; bilinear reprojection onto one ICRS TAN grid",
+        "orientation": "north-up, east-left",
+        "rowOrder": "north-to-south",
+        "residualAstrometryArcsec": null,
+        "wcsHeader": {
+          "WCSAXES": 2,
+          "CRPIX1": 32.5,
+          "CRPIX2": 32.5,
+          "CDELT1": -0.0017083333333333,
+          "CDELT2": 0.0017083333333333,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 248.16722823546,
+          "CRVAL2": 66.755024394796,
+          "LONPOLE": 180.0,
+          "LATPOLE": 66.755024394796,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        }
+      },
+      "quality": {
+        "commonValidFraction": 0.9296875,
+        "wavelengthDifferenceAtTargetUm": 0.0,
+        "maxWavelengthDifferenceBandwidthFraction": 0.25,
+        "maxKeptWavelengthDifferenceUm": 0.0,
+        "motionMeasured": false,
+        "significanceVerified": false,
+        "scientificDifferencingReady": false,
+        "differenceBlockers": [
+          "Independent residual registration not measured",
+          "PSF matching not performed",
+          "Background and photometric corrections not validated",
+          "Resampling noise covariance not modeled"
+        ],
+        "targetCenterMasked": true
+      },
+      "warnings": [
+        "Real SPHEREx observation. Pixels flagged by the archive or with invalid variance remain masked.",
+        "One observation cannot establish motion or variability. This image is not a two-date comparison.",
+        "Per-pixel wavelengths use the pinned, detector-matched CWAVE/CBAND calibration. No 102-channel spectrum is inferred from one frame.",
+        "IMAGE retains archive MJy/sr values. Zodiacal background has not been subtracted. Reprojection interpolates pixels and correlates noise.",
+        "The target-center pixels are flagged or invalid. The surrounding field is shown; the masked core cannot support a target brightness or movement measurement."
+      ],
+      "interpretation": "One real observation of the field around R Draconis. The target core is quality-flagged; no motion, brightness change or confirmed target detection is claimed.",
+      "documentationUrls": [
+        "https://caltech-ipac.github.io/irsa-tutorials/spherex-intro/",
+        "https://caltech-ipac.github.io/spherex-archive-documentation/spherex-data-access/",
+        "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/SPHEREx_Expsupp_QR.pdf"
+      ],
+      "frames": [
+        {
+          "id": "2026W18_2A_0497_1",
+          "observedAt": "2026-05-02T14:05:45.767Z",
+          "mjd": 61162.587335266,
+          "wavelengthUm": 4.457109170654109,
+          "bandwidthUm": 0.03560341496650708,
+          "detector": 6,
+          "processingVersion": "7.0.5",
+          "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2026W18_2A/l2b-v27-2026-244/6/level2_2026W18_2A_0497_1D6_spx_l2b-v27-2026-244.fits",
+          "sha256": "fab39bae0604a046b1b57e6f3828416babb71844fbabc5eefaa5042f928a8780",
+          "spectralCalibration": {
+            "method": "CWAVE/CBAND; bilinear interpolation at zero-based detector coordinates [y,x]",
+            "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/6/spectral_wcs_D6_spx_cal-swcs-v5-2026-191.fits",
+            "sha256": "19195d253892883586aa2183cb66238b32f6032ade62d490b36b85b0dd18f212",
+            "orientation": "sky",
+            "association": "Pinned product; X/Y/VALUES lookup table exactly matches exposure"
+          },
+          "extensions": {
+            "IMAGE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "FLAGS": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": ""
+            },
+            "VARIANCE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy2 / sr2"
+            },
+            "ZODI": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "EPSF": {
+              "shape": [
+                441
+              ],
+              "unit": null
+            },
+            "WCS-WAVE": {
+              "shape": [
+                1
+              ],
+              "unit": null
+            }
+          },
+          "sourceWcsHeader": {
+            "WCSAXES": 2,
+            "CRPIX1": 1020.5,
+            "CRPIX2": 1020.5,
+            "PC1_1": -0.00138401701646,
+            "PC1_2": -0.00106245280419,
+            "PC2_1": -0.00100992073921,
+            "PC2_2": 0.00134178065,
+            "CDELT1": 1.0,
+            "CDELT2": 1.0,
+            "CUNIT1": "deg",
+            "CUNIT2": "deg",
+            "CTYPE1": "RA---TAN-SIP",
+            "CTYPE2": "DEC--TAN-SIP",
+            "CRVAL1": 250.195584118,
+            "CRVAL2": 65.6172267112,
+            "LONPOLE": 180.0,
+            "LATPOLE": 65.6172267112,
+            "TIMESYS": "UTC",
+            "MJDREF": 0.0,
+            "DATE-OBS": "2026-05-02T14:05:45.767",
+            "MJD-OBS": 61162.587335266,
+            "DATE-BEG": "2026-05-02T14:05:45.767",
+            "MJD-BEG": 61162.587335266,
+            "DATE-AVG": "2026-05-02T14:06:43.326",
+            "MJD-AVG": 61162.588001455,
+            "DATE-END": "2026-05-02T14:07:40.885",
+            "MJD-END": 61162.588667645,
+            "XPOSURE": 113.5826,
+            "TELAPSE": 118.1873,
+            "RADESYS": "ICRS",
+            "A_ORDER": 3,
+            "A_0_0": -0.529529967144,
+            "A_0_1": -7.48836649321e-05,
+            "A_0_2": 1.35727242127e-06,
+            "A_0_3": 9.59286813357e-11,
+            "A_1_0": -0.000611855926038,
+            "A_1_1": 4.26850266086e-06,
+            "A_1_2": 6.33000773124e-10,
+            "A_2_0": 1.60311700817e-06,
+            "A_2_1": 1.63016839354e-10,
+            "A_3_0": 5.83352242535e-10,
+            "B_ORDER": 3,
+            "B_0_0": -1.29198658719,
+            "B_0_1": -0.000556984393761,
+            "B_0_2": 2.02214654327e-06,
+            "B_0_3": 4.91836682715e-10,
+            "B_1_0": -5.92921559341e-05,
+            "B_1_1": 7.32254378703e-07,
+            "B_1_2": 1.2629922088e-10,
+            "B_2_0": 6.74260375534e-06,
+            "B_2_1": 6.30495043422e-10,
+            "B_3_0": 4.00707957852e-11,
+            "AP_ORDER": 3,
+            "AP_0_0": 0.52743971609,
+            "AP_0_1": 6.88141231855e-05,
+            "AP_0_2": -1.35340182154e-06,
+            "AP_0_3": -8.43242858172e-11,
+            "AP_1_0": 0.000603976652059,
+            "AP_1_1": -4.25687807158e-06,
+            "AP_1_2": -5.98768218711e-10,
+            "AP_2_0": -1.59816019884e-06,
+            "AP_2_1": -1.20598368724e-10,
+            "AP_3_0": -5.48736638272e-10,
+            "BP_ORDER": 3,
+            "BP_0_0": 1.28737095008,
+            "BP_0_1": 0.000550733143797,
+            "BP_0_2": -2.01279178916e-06,
+            "BP_0_3": -4.81972510037e-10,
+            "BP_1_0": 5.10147075535e-05,
+            "BP_1_1": -7.27244654014e-07,
+            "BP_1_2": -1.00089177353e-10,
+            "BP_2_0": -6.73450579861e-06,
+            "BP_2_1": -5.43100441641e-10,
+            "BP_3_0": -1.33342326973e-11
+          },
+          "zodiacalSubtractionApplied": false,
+          "varianceUsedForMaskOnly": true,
+          "quality": {
+            "sourceMaskedFraction": 0.0384059015763168,
+            "flagPolicy": "All bits rejected except header-defined SOURCE and FULLSAMPLE; invalid IMAGE/VARIANCE also rejected",
+            "flagDefinitions": {
+              "TRANSIENT": 1,
+              "OVERFLOW": 2,
+              "SUR_ERROR": 4,
+              "NONFUNC": 64,
+              "DICHROIC": 128,
+              "MISSING_DATA": 512,
+              "HOT": 1024,
+              "COLD": 2048,
+              "FULLSAMPLE": 4096,
+              "PHANMISS": 16384,
+              "NONLINEAR": 32768,
+              "PERSIST": 131072,
+              "OUTLIER": 524288,
+              "CROSSTALK": 1048576,
+              "SOURCE": 2097152,
+              "GHOST": 4194304,
+              "GHOST_FPA": 8388608,
+              "GHOST_EXT": 16777216,
+              "STREAK": 33554432,
+              "BLOOM": 67108864,
+              "SNOWBALL": 134217728,
+              "HALO": 268435456
+            },
+            "maskedFraction": 0.0703125,
+            "wavelengthMinUm": 4.444922615261105,
+            "wavelengthMaxUm": 4.469222387505725
+          },
+          "dataUrl": "/observations/r-draconis-dr1-d6-single-2026w18-2a-0497-1/frame-1.json",
+          "dataSha256": "8b718933fca39873135823b685916c0aa7f9d5f26902cac377ffff87610da18e"
+        }
+      ],
+      "comparisonUnavailableReason": "Reviewed pairs failed target-quality checks. Showing one real observation with flagged pixels masked.",
+      "targetId": "r-draconis",
+      "targetGuide": {
+        "sourceUrl": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A+R+Dra",
+        "note": "Proper motion only. Annual parallax, perspective acceleration and binary orbital motion are not fitted. Guide coordinates do not establish a detection.",
+        "positions": [
+          {
+            "observedAt": "2026-05-02T14:05:45.767Z",
+            "ra": 248.16722823546203,
+            "dec": 66.75502439479614
+          }
+        ]
+      },
+      "validation": {
+        "reportUrl": "/observations/r-draconis-dr1-d6-single-2026w18-2a-0497-1/validation.json",
+        "matchedSources": 0,
+        "residualRmsArcsec": null,
+        "medianOffsetArcsec": null,
+        "differenceBlockers": [
+          "Only one observation is displayed",
+          "Target-center quality flags prevent a validated comparison"
+        ]
+      }
+    }
+  ]
+}

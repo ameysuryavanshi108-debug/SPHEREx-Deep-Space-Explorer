@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-13T04:47:18.186064+00:00",
+  "pairs": [
+    {
+      "id": "rw-aurigae-dr1-d1-1",
+      "name": "RW Aurigae field \u00b7 real SPHEREx",
+      "ra": 76.95658639398296,
+      "dec": 30.40129178629395,
+      "frame": "ICRS",
+      "coordinateEpoch": "ICRS fixed field at midpoint proper-motion guide position; no observer parallax correction",
+      "sourceKind": "observation",
+      "status": "ready",
+      "sourceRelease": "SPHEREx Data Release 1 (IRSA)",
+      "sourceDoi": "https://doi.org/10.26131/IRSA678",
+      "credit": "SPHEREx / NASA / JPL-Caltech; served by Caltech/IPAC IRSA",
+      "acknowledgementUrl": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_dr1.html",
+      "width": 48,
+      "height": 48,
+      "pixelScaleArcsec": 3.075,
+      "commonDisplay": {
+        "min": 0.36736303647481766,
+        "max": 29.142270882636875,
+        "unit": "MJy/sr"
+      },
+      "alignment": {
+        "method": "Astropy celestial WCS with SIP distortion; bilinear reprojection onto one ICRS TAN grid",
+        "orientation": "north-up, east-left",
+        "rowOrder": "north-to-south",
+        "residualAstrometryArcsec": 1.767761172324433,
+        "wcsHeader": {
+          "WCSAXES": 2,
+          "CRPIX1": 24.5,
+          "CRPIX2": 24.5,
+          "CDELT1": -0.00085416666666667,
+          "CDELT2": 0.00085416666666667,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 76.956586393983,
+          "CRVAL2": 30.401291786294,
+          "LONPOLE": 180.0,
+          "LATPOLE": 30.401291786294,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        }
+      },
+      "quality": {
+        "commonValidFraction": 0.8311631944444444,
+        "wavelengthDifferenceAtTargetUm": 0.000350555843416811,
+        "maxWavelengthDifferenceBandwidthFraction": 0.25,
+        "maxKeptWavelengthDifferenceUm": 0.005041205394688442,
+        "motionMeasured": false,
+        "significanceVerified": false,
+        "scientificDifferencingReady": false,
+        "differenceBlockers": [
+          "Spatially varying recommended ePSF has not been matched",
+          "Native-pixel and calibration covariance are not supplied in the diagonal VARIANCE extension",
+          "Background/photometric fit is exploratory and has not been validated as a correction",
+          "Too few or inconsistent independent compact-source centroids for subpixel registration"
+        ]
+      },
+      "warnings": [
+        "Real SPHEREx archive observations. Calibration and image-quality artifacts may remain.",
+        "Each detector pixel has its own wavelength. The pair uses nearby, not identical, effective wavelengths; incompatible pixels are masked.",
+        "Wavelengths use the pinned CWAVE/CBAND spectral calibration product, matched to every exposure. No 102-channel spectrum is inferred from a single frame.",
+        "Both frames use the same MJy/sr display range. No independent per-frame brightness normalization is applied. Zodiacal background has not been subtracted.",
+        "Reprojection interpolates pixels and correlates noise. This viewer does not establish statistically significant motion or variability.",
+        "The field is deliberately narrow to retain matching wavelengths despite opposite detector orientations. Display pixels oversample the 6.15 arcsec native sampling; no additional spatial resolution is created.",
+        "Four common compact sources were checked independently: residual RMS1.768 arcsec. Subpixel-registration confidence on the oversampled display grid is insufficient for quantitative subtraction; no alignment correction or PSF matching is applied."
+      ],
+      "interpretation": "Actual SPHEREx pixels around RW Aurigae. No significant motion or brightness change is claimed. A catalog guide position is not a verified source identification.",
+      "documentationUrls": [
+        "https://caltech-ipac.github.io/irsa-tutorials/spherex-intro/",
+        "https://caltech-ipac.github.io/spherex-archive-documentation/spherex-data-access/",
+        "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/SPHEREx_Expsupp_QR.pdf"
+      ],
+      "frames": [
+        {
+          "id": "2025W36_1A_0606_2",
+          "observedAt": "2025-09-03T17:24:32.428Z",
+          "mjd": 60921.725375324,
+          "wavelengthUm": 0.8785403032920579,
+          "bandwidthUm": 0.022652187617205607,
+          "detector": 1,
+          "processingVersion": "7.0.5",
+          "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2025W36_1A/l2b-v27-2026-232/1/level2_2025W36_1A_0606_2D1_spx_l2b-v27-2026-232.fits",
+          "sha256": "47d007ed71146072a38fab9b1859070ba6131e4ec002822db4310a610595478c",
+          "spectralCalibration": {
+            "method": "CWAVE/CBAND; bilinear interpolation at zero-based detector coordinates [y,x]",
+            "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/1/spectral_wcs_D1_spx_cal-swcs-v5-2026-191.fits",
+            "sha256": "44fb48b236e25a99d42c8986da0064cc58359527e1fc76e182eda52371a1ae23",
+            "orientation": "sky",
+            "association": "Pinned product; X/Y/VALUES lookup table exactly matches exposure"
+          },
+          "extensions": {
+            "IMAGE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "FLAGS": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": ""
+            },
+            "VARIANCE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy2 / sr2"
+            },
+            "ZODI": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "EPSF": {
+              "shape": [
+                441
+              ],
+              "unit": null
+            },
+            "WCS-WAVE": {
+              "shape": [
+                1
+              ],
+              "unit": null
+            }
+          },
+          "sourceWcsHeader": {
+            "WCSAXES": 2,
+            "CRPIX1": 1020.5,
+            "CRPIX2": 1020.5,
+            "PC1_1": -0.00169961645019,
+            "PC1_2": -0.000117805990067,
+            "PC2_1": -0.000182780064086,
+            "PC2_2": 0.00170428585918,
+            "CDELT1": 1.0,
+            "CDELT2": 1.0,
+            "CUNIT1": "deg",
+            "CUNIT2": "deg",
+            "CTYPE1": "RA---TAN-SIP",
+            "CTYPE2": "DEC--TAN-SIP",
+            "CRVAL1": 75.291891389,
+            "CRVAL2": 29.9358395026,
+            "LONPOLE": 180.0,
+            "LATPOLE": 29.9358395026,
+            "TIMESYS": "UTC",
+            "MJDREF": 0.0,
+            "DATE-OBS": "2025-09-03T17:24:32.428",
+            "MJD-OBS": 60921.725375324,
+            "DATE-BEG": "2025-09-03T17:24:32.428",
+            "MJD-BEG": 60921.725375324,
+            "DATE-AVG": "2025-09-03T17:25:29.987",
+            "MJD-AVG": 60921.726041513,
+            "DATE-END": "2025-09-03T17:26:27.546",
+            "MJD-END": 60921.726707703,
+            "XPOSURE": 113.5826,
+            "TELAPSE": 118.1873,
+            "RADESYS": "ICRS",
+            "A_ORDER": 3,
+            "A_0_0": 0.387512038815,
+            "A_0_1": -0.000292829286855,
+            "A_0_2": -1.40286220122e-06,
+            "A_0_3": -5.38127921164e-13,
+            "A_1_0": 0.000707555580226,
+            "A_1_1": 4.16944576955e-06,
+            "A_1_2": 6.56730287101e-10,
+            "A_2_0": -1.60590944477e-06,
+            "A_2_1": -1.17691856024e-10,
+            "A_3_0": 5.95660363529e-10,
+            "B_ORDER": 3,
+            "B_0_0": -0.957157882212,
+            "B_0_1": 0.000339507619775,
+            "B_0_2": 1.97712263279e-06,
+            "B_0_3": 4.58520106583e-10,
+            "B_1_0": 1.9444584381e-05,
+            "B_1_1": -6.82795486494e-07,
+            "B_1_2": -7.65560877254e-11,
+            "B_2_0": 6.67626061353e-06,
+            "B_2_1": 6.36213508446e-10,
+            "B_3_0": -3.53847603768e-11,
+            "AP_ORDER": 3,
+            "AP_0_0": -0.384917111196,
+            "AP_0_1": 0.000297009700889,
+            "AP_0_2": 1.39387180723e-06,
+            "AP_0_3": -1.1300773288e-11,
+            "AP_1_0": -0.000713358647028,
+            "AP_1_1": -4.14166764425e-06,
+            "AP_1_2": -6.20852058937e-10,
+            "AP_2_0": 1.59285926692e-06,
+            "AP_2_1": 7.46839632862e-11,
+            "AP_3_0": -5.58977471386e-10,
+            "BP_ORDER": 3,
+            "BP_0_0": 0.95165137304,
+            "BP_0_1": -0.000344345119434,
+            "BP_0_2": -1.96234988126e-06,
+            "BP_0_3": -4.47508219777e-10,
+            "BP_1_0": -1.33998605769e-05,
+            "BP_1_1": 6.72331705617e-07,
+            "BP_1_2": 5.01499038051e-11,
+            "BP_2_0": -6.64449779478e-06,
+            "BP_2_1": -5.49384946012e-10,
+            "BP_3_0": 9.19735736929e-12
+          },
+          "zodiacalSubtractionApplied": false,
+          "varianceUsedForMaskOnly": true,
+          "quality": {
+            "sourceMaskedFraction": 0.03529219530949635,
+            "flagPolicy": "All bits rejected except header-defined SOURCE and FULLSAMPLE; invalid IMAGE/VARIANCE also rejected",
+            "flagDefinitions": {
+              "TRANSIENT": 1,
+              "OVERFLOW": 2,
+              "SUR_ERROR": 4,
+              "NONFUNC": 64,
+              "DICHROIC": 128,
+              "MISSING_DATA": 512,
+              "HOT": 1024,
+              "COLD": 2048,
+              "FULLSAMPLE": 4096,
+              "PHANMISS": 16384,
+              "NONLINEAR": 32768,
+              "PERSIST": 131072,
+              "OUTLIER": 524288,
+              "CROSSTALK": 1048576,
+              "SOURCE": 2097152,
+              "GHOST": 4194304,
+              "GHOST_FPA": 8388608,
+              "GHOST_EXT": 16777216,
+              "STREAK": 33554432,
+              "BLOOM": 67108864,
+              "SNOWBALL": 134217728,
+              "HALO": 268435456
+            },
+            "maskedFraction": 0.16883680555555558,
+            "wavelengthMinUm": 0.8760783276757887,
+            "wavelengthMaxUm": 0.8809479957489806
+          },
+          "dataUrl": "/observations/rw-aurigae-dr1-d1-1/frame-1.json",
+          "dataSha256": "f4a1031c54976527a10f67fd8fdf8bb0405abf983ea6f0d3f59a2aba84257923"
+        },
+        {
+          "id": "2026W10_1A_0445_2",
+          "observedAt": "2026-03-04T07:56:46.935Z",
+          "mjd": 61103.331098785,
+          "wavelengthUm": 0.8781897474486411,
+          "bandwidthUm": 0.022012358672386767,
+          "detector": 1,
+          "processingVersion": "7.0.5",
+          "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2026W10_1A/l2b-v27-2026-229/1/level2_2026W10_1A_0445_2D1_spx_l2b-v27-2026-229.fits",
+          "sha256": "2478113bc7089036ae004a43a31d885724b1f5dd0de02198a897fb2f07588b10",
+          "spectralCalibration": {
+            "method": "CWAVE/CBAND; bilinear interpolation at zero-based detector coordinates [y,x]",
+            "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/1/spectral_wcs_D1_spx_cal-swcs-v5-2026-191.fits",
+            "sha256": "44fb48b236e25a99d42c8986da0064cc58359527e1fc76e182eda52371a1ae23",
+            "orientation": "sky",
+            "association": "Pinned product; X/Y/VALUES lookup table exactly matches exposure"
+          },
+          "extensions": {
+            "IMAGE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "FLAGS": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": ""
+            },
+            "VARIANCE": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy2 / sr2"
+            },
+            "ZODI": {
+              "shape": [
+                2040,
+                2040
+              ],
+              "unit": "MJy / sr"
+            },
+            "EPSF": {
+              "shape": [
+                441
+              ],
+              "unit": null
+            },
+            "WCS-WAVE": {
+              "shape": [
+                1
+              ],
+              "unit": null
+            }
+          },
+          "sourceWcsHeader": {
+            "WCSAXES": 2,
+            "CRPIX1": 1020.5,
+            "CRPIX2": 1020.5,
+            "PC1_1": 0.00170100823675,
+            "PC1_2": 0.000118754099701,
+            "PC2_1": 0.000183779296127,
+            "PC2_2": -0.00170431994374,
+            "CDELT1": 1.0,
+            "CDELT2": 1.0,
+            "CUNIT1": "deg",
+            "CUNIT2": "deg",
+            "CTYPE1": "RA---TAN-SIP",
+            "CTYPE2": "DEC--TAN-SIP",
+            "CRVAL1": 77.8405798657,
+            "CRVAL2": 30.752832985,
+            "LONPOLE": 180.0,
+            "LATPOLE": 30.752832985,
+            "TIMESYS": "UTC",
+            "MJDREF": 0.0,
+            "DATE-OBS": "2026-03-04T07:56:46.935",
+            "MJD-OBS": 61103.331098785,
+            "DATE-BEG": "2026-03-04T07:56:46.935",
+            "MJD-BEG": 61103.331098785,
+            "DATE-AVG": "2026-03-04T07:57:44.494",
+            "MJD-AVG": 61103.331764974,
+            "DATE-END": "2026-03-04T07:58:42.053",
+            "MJD-END": 61103.332431163,
+            "XPOSURE": 113.5826,
+            "TELAPSE": 118.1873,
+            "RADESYS": "ICRS",
+            "A_ORDER": 3,
+            "A_0_0": 0.535242091877,
+            "A_0_1": -0.000652093404456,
+            "A_0_2": -1.40414242072e-06,
+            "A_0_3": -6.87258142892e-12,
+            "A_1_0": -0.000314025803503,
+            "A_1_1": 4.16248653125e-06,
+            "A_1_2": 6.45229479595e-10,
+            "A_2_0": -1.59434745632e-06,
+            "A_2_1": -1.06545525118e-10,
+            "A_3_0": 5.6957414236e-10,
+            "B_ORDER": 3,
+            "B_0_0": -1.19143540396,
+            "B_0_1": 8.33950696042e-05,
+            "B_0_2": 1.96734086899e-06,
+            "B_0_3": 4.57585190346e-10,
+            "B_1_0": 0.000310476251009,
+            "B_1_1": -6.89870390422e-07,
+            "B_1_2": -5.300821727e-11,
+            "B_2_0": 6.66496361034e-06,
+            "B_2_1": 6.17738289617e-10,
+            "B_3_0": -5.10520275692e-11,
+            "AP_ORDER": 3,
+            "AP_0_0": -0.532658908535,
+            "AP_0_1": 0.000657987139785,
+            "AP_0_2": 1.39529272072e-06,
+            "AP_0_3": -5.34090348617e-12,
+            "AP_1_0": 0.000306250610696,
+            "AP_1_1": -4.1445615456e-06,
+            "AP_1_2": -6.11091753279e-10,
+            "AP_2_0": 1.58557143956e-06,
+            "AP_2_1": 6.35935384595e-11,
+            "AP_3_0": -5.3546837408e-10,
+            "BP_ORDER": 3,
+            "BP_0_0": 1.18642032715,
+            "BP_0_1": -8.95106926889e-05,
+            "BP_0_2": -1.95477889905e-06,
+            "BP_0_3": -4.47124670447e-10,
+            "BP_1_0": -0.000302396136646,
+            "BP_1_1": 6.78480034124e-07,
+            "BP_1_2": 2.69116156663e-11,
+            "BP_2_0": -6.64982984784e-06,
+            "BP_2_1": -5.32696950871e-10,
+            "BP_3_0": 2.5348110686e-11
+          },
+          "zodiacalSubtractionApplied": false,
+          "varianceUsedForMaskOnly": true,
+          "quality": {
+            "sourceMaskedFraction": 0.029720299884659747,
+            "flagPolicy": "All bits rejected except header-defined SOURCE and FULLSAMPLE; invalid IMAGE/VARIANCE also rejected",
+            "flagDefinitions": {
+              "TRANSIENT": 1,
+              "OVERFLOW": 2,
+              "SUR_ERROR": 4,
+              "NONFUNC": 64,
+              "DICHROIC": 128,
+              "MISSING_DATA": 512,
+              "HOT": 1024,
+              "COLD": 2048,
+              "FULLSAMPLE": 4096,
+              "PHANMISS": 16384,
+              "NONLINEAR": 32768,
+              "PERSIST": 131072,
+              "OUTLIER": 524288,
+              "CROSSTALK": 1048576,
+              "SOURCE": 2097152,
+              "GHOST": 4194304,
+              "GHOST_FPA": 8388608,
+              "GHOST_EXT": 16777216,
+              "STREAK": 33554432,
+              "BLOOM": 67108864,
+              "SNOWBALL": 134217728,
+              "HALO": 268435456
+            },
+            "maskedFraction": 0.16883680555555558,
+            "wavelengthMinUm": 0.8758760831615295,
+            "wavelengthMaxUm": 0.8806646275230152
+          },
+          "dataUrl": "/observations/rw-aurigae-dr1-d1-1/frame-2.json",
+          "dataSha256": "99a9f8b2cf795197c49a46ff00ac64a6d348cb0e94d44f11e40a776ab976836d"
+        }
+      ],
+      "targetId": "rw-aurigae",
+      "targetGuide": {
+        "sourceUrl": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A+RW+Aur",
+        "note": "Proper motion only. Annual parallax, perspective acceleration and binary orbital motion are not fitted. Guide coordinates do not establish a detection.",
+        "positions": [
+          {
+            "observedAt": "2025-09-03T17:24:32.428Z",
+            "ra": 76.95658581510872,
+            "dec": 30.401293190220123
+          },
+          {
+            "observedAt": "2026-03-04T07:56:46.935Z",
+            "ra": 76.95658697285718,
+            "dec": 30.40129038236777
+          }
+        ]
+      },
+      "validation": {
+        "reportUrl": "/observations/rw-aurigae-dr1-d1-1/validation.json",
+        "matchedSources": 4,
+        "residualRmsArcsec": 1.767761172324433,
+        "medianOffsetArcsec": 0.3892859123721991,
+        "differenceBlockers": [
+          "Spatially varying recommended ePSF has not been matched",
+          "Native-pixel and calibration covariance are not supplied in the diagonal VARIANCE extension",
+          "Background/photometric fit is exploratory and has not been validated as a correction",
+          "Too few or inconsistent independent compact-source centroids for subpixel registration"
+        ]
+      }
+    }
+  ]
+}

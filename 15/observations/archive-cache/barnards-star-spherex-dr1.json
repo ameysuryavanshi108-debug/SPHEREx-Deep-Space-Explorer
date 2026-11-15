@@ -1,0 +1,2224 @@
+{
+  "query": {
+    "ra": 269.4461571481132,
+    "dec": 4.7696308299015335,
+    "radius": 0.12,
+    "collection": "spherex_dr1"
+  },
+  "targetId": "barnards-star",
+  "rows": [
+    {
+      "id": "2025W33_2C_0321_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/6/level2_2025W33_2C_0321_1D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60902.864715",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W33_2C_0321_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/3/level2_2025W33_2C_0321_1D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60902.864715",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W33_2C_0321_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/6/level2_2025W33_2C_0321_2D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60902.866207",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W33_2C_0321_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/3/level2_2025W33_2C_0321_2D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60902.866207",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W33_2C_0321_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/3/level2_2025W33_2C_0321_3D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60902.867699",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W33_2C_0321_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/6/level2_2025W33_2C_0321_3D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60902.867699",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W33_2C_0386_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/6/level2_2025W33_2C_0386_2D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60903.136873",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W33_2C_0386_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/3/level2_2025W33_2C_0386_2D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60903.136873",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W33_2C_0386_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/6/level2_2025W33_2C_0386_3D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60903.138366",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W33_2C_0386_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/3/level2_2025W33_2C_0386_3D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60903.138366",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W33_2C_0386_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/3/level2_2025W33_2C_0386_4D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60903.139858",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W33_2C_0386_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W33_2C/l2b-v27-2026-228/6/level2_2025W33_2C_0386_4D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60903.139858",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_1B_0164_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/3/level2_2025W34_1B_0164_1D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60905.853257",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_1B_0164_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/6/level2_2025W34_1B_0164_1D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60905.853257",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_1B_0164_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/3/level2_2025W34_1B_0164_2D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60905.854749",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_1B_0164_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/6/level2_2025W34_1B_0164_2D6_spx_l2b-v27-2026-228.fits",
+      "mjd": "60905.854749",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_1B_0164_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/3/level2_2025W34_1B_0164_3D3_spx_l2b-v27-2026-228.fits",
+      "mjd": "60905.856241",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_2B_0030_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/6/level2_2025W34_2B_0030_1D6_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.639190",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_2B_0030_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/3/level2_2025W34_2B_0030_1D3_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.639190",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_2B_0030_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/6/level2_2025W34_2B_0030_2D6_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.640682",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_2B_0030_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/3/level2_2025W34_2B_0030_2D3_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.640682",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_2B_0030_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/3/level2_2025W34_2B_0030_3D3_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.642174",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_2B_0030_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/6/level2_2025W34_2B_0030_3D6_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.642174",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_2B_0030_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/3/level2_2025W34_2B_0030_4D3_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.643666",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W34_2B_0030_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/6/level2_2025W34_2B_0030_4D6_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.643666",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W34_2B_0090_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0090_3D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.980436",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0090_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0090_3D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.980436",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_2B_0090_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0090_4D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.981929",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0090_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0090_4D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60908.981929",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_2B_0247_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0247_1D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60909.862217",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0247_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0247_1D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60909.862217",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_1B_0557_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/5/level2_2025W34_1B_0557_1D5_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.959983",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_1B_0557_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/2/level2_2025W34_1B_0557_1D2_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.959983",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_1B_0557_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/2/level2_2025W34_1B_0557_2D2_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.961475",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_1B_0557_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/5/level2_2025W34_1B_0557_2D5_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.961475",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_1B_0557_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/5/level2_2025W34_1B_0557_3D5_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.962967",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_1B_0557_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/2/level2_2025W34_1B_0557_3D2_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.962967",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_1B_0557_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/5/level2_2025W34_1B_0557_4D5_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.964460",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_1B_0557_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_1B/l2b-v27-2026-228/2/level2_2025W34_1B_0557_4D2_spx_l2b-v27-2026-228.fits",
+      "mjd": "60907.964460",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0557_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0557_1D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.490604",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0557_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0557_1D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.490604",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_2B_0557_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0557_2D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.492097",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_2B_0557_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0557_2D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.492097",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0557_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0557_3D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.493589",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_2B_0557_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0557_3D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.493589",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W34_2B_0557_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/5/level2_2025W34_2B_0557_4D5_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.495081",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W34_2B_0557_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0557_4D2_spx_l2b-v27-2026-229.fits",
+      "mjd": "60911.495081",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0008_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/3/level2_2025W35_1A_0008_1D3_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.034425",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W35_1A_0008_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/6/level2_2025W35_1A_0008_1D6_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.034425",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W35_1A_0008_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/6/level2_2025W35_1A_0008_2D6_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.035917",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W35_1A_0008_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/3/level2_2025W35_1A_0008_2D3_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.035917",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W35_1A_0008_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/3/level2_2025W35_1A_0008_3D3_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.037409",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W35_1A_0008_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/6/level2_2025W35_1A_0008_3D6_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.037409",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W35_1A_0008_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/6/level2_2025W35_1A_0008_4D6_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.038901",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W35_1A_0008_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/3/level2_2025W35_1A_0008_4D3_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.038901",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W35_1A_0146_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0146_1D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.714147",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0146_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0146_1D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.714147",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0146_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0146_2D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.715639",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0146_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0146_2D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.715639",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0146_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0146_3D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.717131",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0146_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0146_3D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.717131",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0146_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0146_4D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.718623",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0146_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0146_4D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60912.718623",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0432_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/1/level2_2025W35_1A_0432_3D1_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.211020",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_1A_0432_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/4/level2_2025W35_1A_0432_3D4_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.211020",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_1A_0432_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/1/level2_2025W35_1A_0432_4D1_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.212530",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_1A_0432_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/4/level2_2025W35_1A_0432_4D4_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.212530",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_1A_0444_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0444_1D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.276271",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0444_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b_retry-v27-2026-230/2/level2_2025W35_1A_0444_1D2_spx_l2b_retry-v27-2026-230.fits",
+      "mjd": "60914.276271",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0444_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0444_2D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.277763",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0444_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0444_2D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.277763",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0444_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0444_3D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.279255",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0444_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0444_3D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.279255",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0444_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0444_4D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.280748",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0444_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0444_4D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.280748",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0484_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/6/level2_2025W35_1A_0484_1D6_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.482593",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W35_1A_0484_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/3/level2_2025W35_1A_0484_1D3_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.482593",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W35_1A_0484_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/6/level2_2025W35_1A_0484_2D6_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.484085",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2025W35_1A_0484_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/3/level2_2025W35_1A_0484_2D3_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.484085",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2025W35_1A_0511_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/2/level2_2025W35_1A_0511_1D2_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.616398",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_1A_0511_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/5/level2_2025W35_1A_0511_1D5_spx_l2b-v27-2026-230.fits",
+      "mjd": "60914.616398",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_1A_0658_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/1/level2_2025W35_1A_0658_1D1_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.431134",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_1A_0658_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/4/level2_2025W35_1A_0658_1D4_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.431134",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_1A_0658_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/1/level2_2025W35_1A_0658_2D1_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.432626",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_1A_0658_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/4/level2_2025W35_1A_0658_2D4_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.432626",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_1A_0658_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/4/level2_2025W35_1A_0658_3D4_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.434118",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_1A_0658_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/1/level2_2025W35_1A_0658_3D1_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.434118",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_1A_0658_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/4/level2_2025W35_1A_0658_4D4_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.435611",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_1A_0658_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_1A/l2b-v27-2026-230/1/level2_2025W35_1A_0658_4D1_spx_l2b-v27-2026-230.fits",
+      "mjd": "60915.435611",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0221_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/5/level2_2025W35_2A_0221_1D5_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.656062",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_2A_0221_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/2/level2_2025W35_2A_0221_1D2_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.656062",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_2A_0221_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/5/level2_2025W35_2A_0221_2D5_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.657572",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_2A_0221_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/2/level2_2025W35_2A_0221_2D2_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.657572",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_2A_0221_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/2/level2_2025W35_2A_0221_3D2_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.659064",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_2A_0221_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/5/level2_2025W35_2A_0221_3D5_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.659064",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_2A_0221_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/2/level2_2025W35_2A_0221_4D2_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.660556",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_2A_0221_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/5/level2_2025W35_2A_0221_4D5_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.660556",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_2A_0233_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0233_1D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.721970",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0233_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0233_1D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.721970",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0233_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0233_2D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.723480",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0233_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0233_2D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.723480",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0233_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0233_3D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.724972",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0233_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0233_3D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.724972",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0233_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0233_4D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.726464",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0233_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0233_4D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60916.726464",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0418_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/2/level2_2025W35_2A_0418_1D2_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.673940",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2025W35_2A_0418_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/5/level2_2025W35_2A_0418_1D5_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.673940",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2025W35_2A_0474_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0474_1D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.944517",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0474_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0474_1D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.944517",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0474_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0474_2D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.946010",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0474_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0474_2D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.946010",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0474_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0474_3D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.947502",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0474_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0474_3D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.947502",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0474_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0474_4D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60917.948994",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W36_1A_0024_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W36_1A/l2b-v27-2026-232/1/level2_2025W36_1A_0024_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "60919.103040",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W36_1A_0024_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W36_1A/l2b-v27-2026-232/4/level2_2025W36_1A_0024_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "60919.103040",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0611_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0611_1D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.623316",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0611_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0611_1D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.623316",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0611_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0611_2D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.624826",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0611_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0611_2D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.624826",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0611_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0611_3D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.626318",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0611_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0611_3D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.626318",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W35_2A_0611_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/1/level2_2025W35_2A_0611_4D1_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.627810",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W35_2A_0611_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W35_2A/l2b-v27-2026-231/4/level2_2025W35_2A_0611_4D4_spx_l2b-v27-2026-231.fits",
+      "mjd": "60918.627810",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W36_2B_0123_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W36_2B/l2b-v27-2026-234/1/level2_2025W36_2B_0123_1D1_spx_l2b-v27-2026-234.fits",
+      "mjd": "60923.107203",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W36_2B_0123_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W36_2B/l2b-v27-2026-234/4/level2_2025W36_2B_0123_1D4_spx_l2b-v27-2026-234.fits",
+      "mjd": "60923.107203",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W40_1A_0322_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/1/level2_2025W40_1A_0322_1D1_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.449846",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W40_1A_0322_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/4/level2_2025W40_1A_0322_1D4_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.449846",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W40_1A_0353_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/4/level2_2025W40_1A_0353_1D4_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.585340",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W40_1A_0353_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/1/level2_2025W40_1A_0353_1D1_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.585339",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W40_1A_0367_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/1/level2_2025W40_1A_0367_1D1_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.653237",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W40_1A_0367_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/4/level2_2025W40_1A_0367_1D4_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.653237",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W40_1A_0441_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/1/level2_2025W40_1A_0441_1D1_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.994217",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W40_1A_0441_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/4/level2_2025W40_1A_0441_1D4_spx_l2b-v27-2026-239.fits",
+      "mjd": "60948.994217",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W40_1A_0471_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/1/level2_2025W40_1A_0471_1D1_spx_l2b-v27-2026-239.fits",
+      "mjd": "60949.130279",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W40_1A_0471_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/4/level2_2025W40_1A_0471_1D4_spx_l2b-v27-2026-239.fits",
+      "mjd": "60949.130279",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2025W40_1A_0500_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/1/level2_2025W40_1A_0500_1D1_spx_l2b-v27-2026-239.fits",
+      "mjd": "60949.265914",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2025W40_1A_0500_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W40_1A/l2b-v27-2026-239/4/level2_2025W40_1A_0500_1D4_spx_l2b-v27-2026-239.fits",
+      "mjd": "60949.265914",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0430_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0430_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.089911",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0430_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0430_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.089911",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0430_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0430_2D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.091403",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0430_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0430_2D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.091403",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0430_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0430_3D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.092895",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0430_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0430_3D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.092895",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0430_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0430_4D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.094387",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0430_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0430_4D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.094387",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0444_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0444_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.157737",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0444_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0444_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.157737",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0511_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0511_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.433058",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0511_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0511_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.433058",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0511_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0511_2D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.434550",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0511_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0511_2D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.434550",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0511_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0511_3D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.436043",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0511_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0511_3D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.436043",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0511_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0511_4D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.437535",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0511_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0511_4D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.437535",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0525_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0525_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.498415",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0525_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0525_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.498415",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0539_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0539_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.565087",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0539_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0539_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.565087",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0539_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0539_2D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.566579",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0539_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0539_2D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.566579",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0539_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0539_3D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.568072",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0539_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0539_3D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.568072",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0539_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0539_4D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.569564",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0539_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0539_4D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.569564",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0556_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0556_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.634282",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0556_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0556_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.634282",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0556_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0556_2D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.635774",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0556_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0556_2D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.635774",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0556_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0556_3D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.637284",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0556_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0556_3D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.637284",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0556_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0556_4D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.638776",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0556_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0556_4D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.638776",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0570_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0570_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.701273",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0570_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0570_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.701273",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_1A_0587_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/1/level2_2026W11_1A_0587_1D1_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.770379",
+      "detector": "SPHEREx-D1",
+      "wavelengthMinUm": 0.7455,
+      "wavelengthMaxUm": 1.1167
+    },
+    {
+      "id": "2026W11_1A_0587_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_1A/l2b-v27-2026-232/4/level2_2026W11_1A_0587_1D4_spx_l2b-v27-2026-232.fits",
+      "mjd": "61110.770379",
+      "detector": "SPHEREx-D4",
+      "wavelengthMinUm": 2.4027,
+      "wavelengthMaxUm": 3.8473000000000006
+    },
+    {
+      "id": "2026W11_2A_0474_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0474_1D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.895782",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0474_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0474_1D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.895782",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0474_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0474_2D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.897274",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0474_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0474_2D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.897274",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0474_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0474_3D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.898766",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0474_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0474_3D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.898766",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0474_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0474_4D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.900259",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0474_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0474_4D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61113.900259",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0501_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0501_1D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.032003",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0501_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0501_1D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.032003",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0501_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0501_2D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.033496",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0501_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0501_2D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.033496",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0501_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0501_3D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.034988",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0501_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0501_3D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.034988",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0501_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0501_4D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.036480",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0501_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0501_4D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.036480",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0513_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0513_1D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.099563",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0513_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0513_1D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.099563",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0513_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0513_2D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.101056",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0513_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0513_2D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.101056",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0513_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0513_3D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.102548",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0513_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0513_3D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.102548",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0513_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0513_4D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.104040",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0513_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0513_4D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.104040",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_1A_0311_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/5/level2_2026W12_1A_0311_1D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.680151",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_1A_0311_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/2/level2_2026W12_1A_0311_1D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.680151",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_1A_0311_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/2/level2_2026W12_1A_0311_2D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.681643",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_1A_0311_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/5/level2_2026W12_1A_0311_2D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.681643",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_1A_0311_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/5/level2_2026W12_1A_0311_3D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.683136",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_1A_0311_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/2/level2_2026W12_1A_0311_3D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.683136",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0550_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0550_1D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.304091",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0550_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0550_1D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.304091",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_1A_0311_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/2/level2_2026W12_1A_0311_4D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.684628",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_1A_0311_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/5/level2_2026W12_1A_0311_4D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61116.684628",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0550_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0550_2D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.305583",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0550_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0550_2D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.305583",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0550_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0550_3D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.307093",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0550_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0550_3D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.307093",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W11_2A_0571_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/5/level2_2026W11_2A_0571_1D5_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.438909",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W11_2A_0571_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W11_2A/l2b-v27-2026-234/2/level2_2026W11_2A_0571_1D2_spx_l2b-v27-2026-234.fits",
+      "mjd": "61114.438909",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_1A_0598_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0598_1D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.309231",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0598_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0598_1D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.309231",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0598_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0598_2D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.310724",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0598_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0598_2D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.310724",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0598_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0598_3D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.312216",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0598_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0598_3D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.312216",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0598_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0598_4D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.313708",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0598_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0598_4D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.313708",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0610_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0610_1D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.377040",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0610_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0610_1D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.377040",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0610_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0610_2D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.378532",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0610_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0610_2D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.378532",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0610_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0610_3D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.380025",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0610_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0610_3D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.380025",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_1A_0610_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/3/level2_2026W12_1A_0610_4D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.381517",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_1A_0610_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_1A/l2b-v27-2026-235/6/level2_2026W12_1A_0610_4D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61118.381517",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0324_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/3/level2_2026W12_2A_0324_1D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.278599",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_2A_0324_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/6/level2_2026W12_2A_0324_1D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.278599",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0324_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/3/level2_2026W12_2A_0324_2D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.280091",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_2A_0324_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/6/level2_2026W12_2A_0324_2D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.280091",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W13_1A_0129_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/6/level2_2026W13_1A_0129_1D6_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.654126",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W13_1A_0129_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/3/level2_2026W13_1A_0129_1D3_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.654126",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W13_1A_0129_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/6/level2_2026W13_1A_0129_2D6_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.655618",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W13_1A_0129_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/3/level2_2026W13_1A_0129_2D3_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.655618",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W13_1A_0129_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/6/level2_2026W13_1A_0129_3D6_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.657110",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W13_1A_0129_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/3/level2_2026W13_1A_0129_3D3_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.657110",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W13_1A_0129_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/3/level2_2026W13_1A_0129_4D3_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.658602",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W13_1A_0129_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/6/level2_2026W13_1A_0129_4D6_spx_l2b-v27-2026-236.fits",
+      "mjd": "61122.658602",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0371_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/5/level2_2026W12_2A_0371_1D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.549087",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_2A_0371_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/2/level2_2026W12_2A_0371_1D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.549087",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_2A_0371_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/5/level2_2026W12_2A_0371_2D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.550580",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_2A_0371_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/2/level2_2026W12_2A_0371_2D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.550580",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_2A_0371_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/5/level2_2026W12_2A_0371_3D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.552072",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_2A_0371_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/2/level2_2026W12_2A_0371_3D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.552072",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_2A_0371_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/2/level2_2026W12_2A_0371_4D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.553564",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_2A_0371_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/5/level2_2026W12_2A_0371_4D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61120.553564",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_2A_0496_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/2/level2_2026W12_2A_0496_1D2_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.228205",
+      "detector": "SPHEREx-D2",
+      "wavelengthMinUm": 1.1033000000000002,
+      "wavelengthMaxUm": 1.6499000000000001
+    },
+    {
+      "id": "2026W12_2A_0496_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/5/level2_2026W12_2A_0496_1D5_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.228205",
+      "detector": "SPHEREx-D5",
+      "wavelengthMinUm": 3.8112999999999997,
+      "wavelengthMaxUm": 4.43
+    },
+    {
+      "id": "2026W12_2A_0520_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/6/level2_2026W12_2A_0520_1D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.364125",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0520_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/3/level2_2026W12_2A_0520_1D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.364125",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_2A_0520_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/3/level2_2026W12_2A_0520_2D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.365617",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_2A_0520_2",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/6/level2_2026W12_2A_0520_2D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.365617",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0520_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/3/level2_2026W12_2A_0520_3D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.367109",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W12_2A_0520_3",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/6/level2_2026W12_2A_0520_3D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.367109",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0520_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/6/level2_2026W12_2A_0520_4D6_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.368602",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W12_2A_0520_4",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W12_2A/l2b-v27-2026-235/3/level2_2026W12_2A_0520_4D3_spx_l2b-v27-2026-235.fits",
+      "mjd": "61121.368602",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W13_1A_0549_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/6/level2_2026W13_1A_0549_1D6_spx_l2b-v27-2026-236.fits",
+      "mjd": "61124.894266",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W13_1A_0549_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W13_1A/l2b-v27-2026-236/3/level2_2026W13_1A_0549_1D3_spx_l2b-v27-2026-236.fits",
+      "mjd": "61124.894266",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W15_2A_0137_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W15_2A/l2b-v27-2026-240/6/level2_2026W15_2A_0137_1D6_spx_l2b-v27-2026-240.fits",
+      "mjd": "61140.030061",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W15_2A_0137_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W15_2A/l2b-v27-2026-240/3/level2_2026W15_2A_0137_1D3_spx_l2b-v27-2026-240.fits",
+      "mjd": "61140.030061",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W19_1A_0046_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/3/level2_2026W19_1A_0046_1D3_spx_l2b-v27-2026-245.fits",
+      "mjd": "61164.133134",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W19_1A_0046_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/6/level2_2026W19_1A_0046_1D6_spx_l2b-v27-2026-245.fits",
+      "mjd": "61164.133134",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W19_1A_0216_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/3/level2_2026W19_1A_0216_1D3_spx_l2b-v27-2026-245.fits",
+      "mjd": "61164.607120",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W19_1A_0216_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/6/level2_2026W19_1A_0216_1D6_spx_l2b-v27-2026-245.fits",
+      "mjd": "61164.607120",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W19_1A_0326_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/6/level2_2026W19_1A_0326_1D6_spx_l2b-v27-2026-245.fits",
+      "mjd": "61164.879119",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W19_1A_0326_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/3/level2_2026W19_1A_0326_1D3_spx_l2b-v27-2026-245.fits",
+      "mjd": "61164.879119",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    },
+    {
+      "id": "2026W19_1A_0403_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/6/level2_2026W19_1A_0403_1D6_spx_l2b-v27-2026-245.fits",
+      "mjd": "61165.082972",
+      "detector": "SPHEREx-D6",
+      "wavelengthMinUm": 4.4115,
+      "wavelengthMaxUm": 5.009600000000001
+    },
+    {
+      "id": "2026W19_1A_0403_1",
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2026W19_1A/l2b-v27-2026-245/3/level2_2026W19_1A_0403_1D3_spx_l2b-v27-2026-245.fits",
+      "mjd": "61165.082972",
+      "detector": "SPHEREx-D3",
+      "wavelengthMinUm": 1.6301,
+      "wavelengthMaxUm": 2.4346
+    }
+  ],
+  "checkedAt": "2026-11-13T04:31:08.832491+00:00",
+  "scope": "radius",
+  "truncated": false,
+  "url": "https://irsa.ipac.caltech.edu/SIA?COLLECTION=spherex_dr1&POS=circle+269.4461571481132+4.7696308299015335+0.12&RESPONSEFORMAT=VOTABLE",
+  "responseSha256": "9dda3077c841a6e96803920c22795519b5142c91859a1f57fc7927ca1ea8eb26"
+}

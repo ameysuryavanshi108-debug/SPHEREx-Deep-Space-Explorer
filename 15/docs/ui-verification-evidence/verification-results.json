@@ -1,0 +1,387 @@
+{
+  "ownerNodeTests": {
+    "passed": 109,
+    "failed": 0
+  },
+  "publicNodeTests": {
+    "passed": 46,
+    "failed": 0
+  },
+  "builds": {
+    "owner": "passed",
+    "public": "passed"
+  },
+  "runs": [
+    {
+      "base": "http://localhost:5173",
+      "checks": [
+        {
+          "name": "Home exact star brand, removed clipped line, six authentic fields, smooth WebGL animation",
+          "passed": true,
+          "evidence": {
+            "ids": "m101-2026-d2-cwave,epsilon-indi-b-d2-2,wise-0855-d2-1,rw-aurigae-dr1-d1-1,barnards-star-qr3-d5-single-2026w34-1a-0363-1,r-draconis-dr1-d6-single-2026w18-2a-0497-1",
+            "colors": "#b9a0ff,#89bbff,#78dccb,#ffa9ce,#ffcc8b,#a6d4ff",
+            "count": "6"
+          }
+        },
+        {
+          "name": "Main navigation reaches three-column map with same six marks and automatic default focus",
+          "passed": true,
+          "evidence": {
+            "focusedPose": {
+              "distance": 7.15417199564476,
+              "projectedRadiusPx": 235.87090247635945,
+              "canvas": {
+                "width": 931.4375,
+                "height": 589.765625
+              },
+              "pose": {
+                "position": [
+                  1.3963712818054375,
+                  3.619105319709258,
+                  6.01118963862137
+                ],
+                "target": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "columns": [
+              {
+                "left": 35.6875,
+                "width": 195.5
+              },
+              {
+                "left": 244.78125,
+                "width": 933.4375
+              },
+              {
+                "left": 1191.8125,
+                "width": 212.5
+              }
+            ]
+          }
+        },
+        {
+          "name": "Inspector displays authentic pixel preview, real dates/coordinates, and no placeholder measurements",
+          "passed": true,
+          "evidence": {
+            "pixelHash": "c2bec89ff58485589c34377c2ed92b1329a4b5e44e44fdb54dd74f6180aa8843",
+            "selected": "RW Aurigae"
+          }
+        },
+        {
+          "name": "Search and release/pair/grid filters change actual field list and rendered points",
+          "passed": true,
+          "evidence": {
+            "searchCount": 1,
+            "pairCount": 4,
+            "filteredHistoricalPairCount": 3,
+            "emptyCount": 0
+          }
+        },
+        {
+          "name": "List and repeat selection autofocus without clipping; map icon controls and reset work",
+          "passed": true,
+          "evidence": {
+            "repeatFocus": {
+              "distance": 7.154171995644761,
+              "projectedRadiusPx": 235.87090247635945,
+              "canvas": {
+                "width": 931.4375,
+                "height": 589.765625
+              },
+              "pose": {
+                "position": [
+                  -0.06485963468160283,
+                  0.5949559815652066,
+                  -7.12909514251679
+                ],
+                "target": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "refit": {
+              "distance": 7.1541719956447585,
+              "projectedRadiusPx": 235.8709024763595,
+              "canvas": {
+                "width": 931.4375,
+                "height": 589.765625
+              },
+              "pose": {
+                "position": [
+                  -0.06575578151451016,
+                  0.5949469061878296,
+                  -7.129087690531143
+                ],
+                "target": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Direct field and target URLs autofocus genuine selected field, repeated Home entry also refocuses",
+          "passed": true,
+          "evidence": {
+            "fieldUrl": "m101-2026-d2-cwave",
+            "targetUrl": "epsilon-indi-b-d2-2",
+            "repeatedHomeDefault": "rw-aurigae-dr1-d1-1"
+          }
+        }
+      ],
+      "note": "Initial source checks that completed before narrow harness-selector corrections."
+    },
+    {
+      "base": "http://localhost:4173",
+      "checks": [
+        {
+          "name": "Compiled public six-field map identity and full initial focus",
+          "passed": true,
+          "evidence": {
+            "data": {
+              "count": "6",
+              "ids": "m101-2026-d2-cwave,epsilon-indi-b-d2-2,wise-0855-d2-1,rw-aurigae-dr1-d1-1,barnards-star-qr3-d5-single-2026w34-1a-0363-1,r-draconis-dr1-d6-single-2026w18-2a-0497-1",
+              "colors": "#b9a0ff,#89bbff,#78dccb,#ffa9ce,#ffcc8b,#a6d4ff"
+            },
+            "focus": {
+              "distance": 7.15417199564476,
+              "projectedRadiusPx": 235.87090247635945,
+              "canvas": {
+                "width": 931.4375,
+                "height": 589.765625
+              },
+              "pose": {
+                "position": [
+                  1.4161032313102688,
+                  3.612330113028734,
+                  6.01064886148294
+                ],
+                "target": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Direct field and target URLs autofocus genuine selected field, repeated Home entry also refocuses",
+          "passed": true,
+          "evidence": {
+            "fieldUrl": "m101-2026-d2-cwave",
+            "targetUrl": "epsilon-indi-b-d2-2",
+            "repeatedHomeDefault": "rw-aurigae-dr1-d1-1"
+          }
+        }
+      ],
+      "note": "Compiled identity and route/return-focus checks."
+    },
+    {
+      "base": "http://localhost:4173",
+      "checks": [
+        {
+          "name": "Actual 3D field-marker pointer selection updates inspector and autofocuses",
+          "passed": true,
+          "evidence": {
+            "field": "wise-0855-d2-1",
+            "markerPixel": {
+              "x": 498.64399522920775,
+              "y": 583.8094599616285
+            },
+            "focus": {
+              "distance": 7.15417199564476,
+              "projectedRadiusPx": 235.87090247635945,
+              "canvas": {
+                "width": 931.4375,
+                "height": 589.765625
+              },
+              "pose": {
+                "position": [
+                  -4.906454508128398,
+                  -0.8993218467617905,
+                  5.128362440279665
+                ],
+                "target": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "2D marker selection updates real inspector and 3D camera; comparator link preserves exact field",
+          "passed": true,
+          "evidence": {
+            "single": "r-draconis-dr1-d6-single-2026w18-2a-0497-1"
+          }
+        },
+        {
+          "name": "Scientific Details precedes Archive; prepared-name search opens authentic cached fields only",
+          "passed": true,
+          "evidence": {
+            "drawerOrder": [
+              "Scientific Details Dates, sources & limitations",
+              "Load from NASA Archive"
+            ],
+            "preparedSearchRequests": []
+          }
+        },
+        {
+          "name": "Desktop/tablet/mobile responsive layouts and mobile field selection",
+          "passed": true,
+          "evidence": [
+            {
+              "route": "/",
+              "width": 1024,
+              "scrollWidth": 1024
+            },
+            {
+              "route": "/sky-map",
+              "width": 1024,
+              "scrollWidth": 1024
+            },
+            {
+              "route": "/blink",
+              "width": 1024,
+              "scrollWidth": 1024
+            },
+            {
+              "route": "/",
+              "width": 390,
+              "scrollWidth": 390
+            },
+            {
+              "route": "/sky-map",
+              "width": 390,
+              "scrollWidth": 390
+            },
+            {
+              "route": "/blink",
+              "width": 390,
+              "scrollWidth": 390
+            }
+          ]
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "base": "http://localhost:4173",
+      "checks": [
+        {
+          "name": "Actual FITS A upload: immediate single preview and metadata",
+          "passed": true,
+          "evidence": {
+            "canvasCount": 1,
+            "observation": "2025W36_1A_0606_2",
+            "dimensions": "36x36"
+          }
+        },
+        {
+          "name": "Actual FITS B upload: validate overlap/calibration and WCS reproject into matching FOV",
+          "passed": true,
+          "evidence": {
+            "sizes": [
+              [
+                36,
+                36
+              ],
+              [
+                36,
+                36
+              ]
+            ],
+            "validation": "Compatible pair \u00b7 WCS aligned for visual comparison."
+          }
+        },
+        {
+          "name": "Uploaded pair blink/pause, synchronized zoom/pan, brightness/contrast/reset",
+          "passed": true,
+          "evidence": {
+            "blinkLabels": [
+              "Uploaded observation A: rw-aurigae-A.fits",
+              "Uploaded observation B: rw-aurigae-B.fits"
+            ],
+            "syncedTransforms": [
+              "translate(-5%, 0%) scale(1.5)",
+              "translate(-5%, 0%) scale(1.5)"
+            ]
+          }
+        },
+        {
+          "name": "Mobile uploaded preview has no horizontal overflow",
+          "passed": true,
+          "evidence": {
+            "scroll": 390,
+            "width": 390
+          }
+        },
+        {
+          "name": "Incompatible real-pixel test derivative keeps both previews and disables blink",
+          "passed": true,
+          "evidence": "Blink unavailable \u00b7 both original previews remain visible.\n\nFewer than 64 common unflagged pixels remain with compatible wavelength.\nMore than 10% of common usable pixels have incompatible wavelength coverage."
+        },
+        {
+          "name": "Corrupted FITS rejected without fake preview",
+          "passed": true,
+          "evidence": "This file is too short to contain a FITS header."
+        },
+        {
+          "name": "Actual FITS drag-and-drop restores valid B preview",
+          "passed": true,
+          "evidence": "Real local FITS bytes delivered via drop event and read by worker"
+        },
+        {
+          "name": "Local processing sends no image upload requests",
+          "passed": true,
+          "evidence": {
+            "nonGetRequests": [],
+            "remoteRequests": []
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "base": "http://localhost:4173",
+      "checks": [
+        {
+          "name": "Real RW Aurigae pair metadata, blink, pause, synchronized zoom/pan, brightness/contrast/reset",
+          "passed": true,
+          "evidence": {
+            "dates": [
+              "2025-09-03T17:24:32.428Z",
+              "2026-03-04T07:56:46.935Z"
+            ],
+            "blinkDates": [
+              "2025-09-03T17:24:32.428Z",
+              "2026-03-04T07:56:46.935Z"
+            ],
+            "resetUrl": "http://localhost:4173/blink?source=real&pair=rw-aurigae-dr1-d1-1&view=side&epoch=2&zoom=1&panX=0&panY=0&brightness=0&contrast=1&stretch=linear"
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": []
+    }
+  ],
+  "limitations": [
+    "Chromium only.",
+    "Rendering pauses offscreen; mobile focus checked once sphere visible.",
+    "Large reference recordings were not viewed."
+  ],
+  "note": "Earlier harness runs had human-label/React-paint synchronization failures; corrected narrow reruns passed. No application issues remain from those failures."
+}

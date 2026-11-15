@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "query": {
+        "ra": 269.4461571481132,
+        "dec": 4.7696308299015335,
+        "radius": 0.12,
+        "collection": "spherex_dr1"
+      },
+      "targetId": "barnards-star",
+      "dataUrl": "/observations/archive-cache/barnards-star-spherex-dr1.json",
+      "sha256": "cfd1b91d125f987d2fed199d1c556f42d56b288a408d8be5f7662969a2ade108"
+    },
+    {
+      "query": {
+        "ra": 269.4461571481132,
+        "dec": 4.7696308299015335,
+        "radius": 0.12,
+        "collection": "spherex_dr1_deep"
+      },
+      "targetId": "barnards-star",
+      "dataUrl": "/observations/archive-cache/barnards-star-spherex-dr1-deep.json",
+      "sha256": "a35422f18a84d38ab19640c275dff9d8c13f4d4efb4848f323242d560931c063"
+    },
+    {
+      "query": {
+        "ra": 269.4461571481132,
+        "dec": 4.7696308299015335,
+        "radius": 0.12,
+        "collection": "spherex_qr3"
+      },
+      "targetId": "barnards-star",
+      "dataUrl": "/observations/archive-cache/barnards-star-spherex-qr3.json",
+      "sha256": "0b46553eb57ebfea8d2d24295257e36abd73de3542704935aa381aab20f7ed7a"
+    },
+    {
+      "query": {
+        "ra": 269.4461571481132,
+        "dec": 4.7696308299015335,
+        "radius": 0.12,
+        "collection": "spherex_qr3_deep"
+      },
+      "targetId": "barnards-star",
+      "dataUrl": "/observations/archive-cache/barnards-star-spherex-qr3-deep.json",
+      "sha256": "ae9520f0a0b5eb9b37af2529a33e5af53d210753d3977db8b966ce2e97364e78"
+    },
+    {
+      "query": {
+        "ra": 331.0976703219354,
+        "dec": -56.80098831749038,
+        "radius": 0.12,
+        "collection": "spherex_dr1"
+      },
+      "targetId": "epsilon-indi-b",
+      "dataUrl": "/observations/archive-cache/epsilon-indi-b-spherex-dr1.json",
+      "sha256": "78dfb48a9a8662a0f57f5105ae78d86ceb4bc799e70fd12faeec68d5da7e1718"
+    },
+    {
+      "query": {
+        "ra": 331.0976703219354,
+        "dec": -56.80098831749038,
+        "radius": 0.12,
+        "collection": "spherex_dr1_deep"
+      },
+      "targetId": "epsilon-indi-b",
+      "dataUrl": "/observations/archive-cache/epsilon-indi-b-spherex-dr1-deep.json",
+      "sha256": "94477b5b41e798711ba9169dba5193c583e27fb0bbf763a4b8eae25eec079028"
+    },
+    {
+      "query": {
+        "ra": 331.0976703219354,
+        "dec": -56.80098831749038,
+        "radius": 0.12,
+        "collection": "spherex_qr3"
+      },
+      "targetId": "epsilon-indi-b",
+      "dataUrl": "/observations/archive-cache/epsilon-indi-b-spherex-qr3.json",
+      "sha256": "87418307064faa5fbaeb3d3af3dcafecde8bd7830779ab9f033375da5a7829bf"
+    },
+    {
+      "query": {
+        "ra": 331.0976703219354,
+        "dec": -56.80098831749038,
+        "radius": 0.12,
+        "collection": "spherex_qr3_deep"
+      },
+      "targetId": "epsilon-indi-b",
+      "dataUrl": "/observations/archive-cache/epsilon-indi-b-spherex-qr3-deep.json",
+      "sha256": "5fa34f8ca20e49b6ac4f9c858117856dcd50923ecdb1676be4f998ec76be9bb6"
+    },
+    {
+      "query": {
+        "ra": 133.7586380341881,
+        "dec": -7.24208936733778,
+        "radius": 0.12,
+        "collection": "spherex_dr1"
+      },
+      "targetId": "wise-0855",
+      "dataUrl": "/observations/archive-cache/wise-0855-spherex-dr1.json",
+      "sha256": "2bb617026df00ef496e3e3b38a113bf12298f839a91d07d539a5a68265f39960"
+    },
+    {
+      "query": {
+        "ra": 133.7586380341881,
+        "dec": -7.24208936733778,
+        "radius": 0.12,
+        "collection": "spherex_dr1_deep"
+      },
+      "targetId": "wise-0855",
+      "dataUrl": "/observations/archive-cache/wise-0855-spherex-dr1-deep.json",
+      "sha256": "b6f980964c43d8f9a102d12374f33b7ac6adbca5a47e424701cd45e717182c75"
+    },
+    {
+      "query": {
+        "ra": 133.7586380341881,
+        "dec": -7.24208936733778,
+        "radius": 0.12,
+        "collection": "spherex_qr3"
+      },
+      "targetId": "wise-0855",
+      "dataUrl": "/observations/archive-cache/wise-0855-spherex-qr3.json",
+      "sha256": "b203fe0af06b97d89cea93a271d4d41f3b4e97de55d64291ae5425608f0e069f"
+    },
+    {
+      "query": {
+        "ra": 133.7586380341881,
+        "dec": -7.24208936733778,
+        "radius": 0.12,
+        "collection": "spherex_qr3_deep"
+      },
+      "targetId": "wise-0855",
+      "dataUrl": "/observations/archive-cache/wise-0855-spherex-qr3-deep.json",
+      "sha256": "d4449611e422353c3552ee74ab942f25317fd64d085bb2d769e4b71fe766e3a0"
+    },
+    {
+      "query": {
+        "ra": 76.95658772937921,
+        "dec": 30.40128854759766,
+        "radius": 0.12,
+        "collection": "spherex_dr1"
+      },
+      "targetId": "rw-aurigae",
+      "dataUrl": "/observations/archive-cache/rw-aurigae-spherex-dr1.json",
+      "sha256": "412cfcb4e072bea768eca7c1e1a070646c1aa4b479d55575d6940abfbf5a6aed"
+    },
+    {
+      "query": {
+        "ra": 76.95658772937921,
+        "dec": 30.40128854759766,
+        "radius": 0.12,
+        "collection": "spherex_dr1_deep"
+      },
+      "targetId": "rw-aurigae",
+      "dataUrl": "/observations/archive-cache/rw-aurigae-spherex-dr1-deep.json",
+      "sha256": "89ccd8d14e3cc944a506e4ee779ecb25cb4ac2b7207dae72dba95a19141d5cf0"
+    },
+    {
+      "query": {
+        "ra": 76.95658772937921,
+        "dec": 30.40128854759766,
+        "radius": 0.12,
+        "collection": "spherex_qr3"
+      },
+      "targetId": "rw-aurigae",
+      "dataUrl": "/observations/archive-cache/rw-aurigae-spherex-qr3.json",
+      "sha256": "673dc7288f648e70c2a67245660a47027f457ba70353f8456d3e26a9a6f6745d"
+    },
+    {
+      "query": {
+        "ra": 76.95658772937921,
+        "dec": 30.40128854759766,
+        "radius": 0.12,
+        "collection": "spherex_qr3_deep"
+      },
+      "targetId": "rw-aurigae",
+      "dataUrl": "/observations/archive-cache/rw-aurigae-spherex-qr3-deep.json",
+      "sha256": "4e6313b71befe9a5ca663ffccebaa29ae95450f2630f861861758f7a8a373ed4"
+    },
+    {
+      "query": {
+        "ra": 248.16722587208395,
+        "dec": 66.75502467262785,
+        "radius": 0.12,
+        "collection": "spherex_dr1"
+      },
+      "targetId": "r-draconis",
+      "dataUrl": "/observations/archive-cache/r-draconis-spherex-dr1.json",
+      "sha256": "a7ad828fe0127bac6ec0eb6c2d61fa271385c6e9d5205d335b6d08eab9f252f2"
+    },
+    {
+      "query": {
+        "ra": 248.16722587208395,
+        "dec": 66.75502467262785,
+        "radius": 0.12,
+        "collection": "spherex_dr1_deep"
+      },
+      "targetId": "r-draconis",
+      "dataUrl": "/observations/archive-cache/r-draconis-spherex-dr1-deep.json",
+      "sha256": "7fe115d84254d986e6abfc86da658c5886e6250810bbb899aa1f9be9cb2a4b86"
+    },
+    {
+      "query": {
+        "ra": 248.16722587208395,
+        "dec": 66.75502467262785,
+        "radius": 0.12,
+        "collection": "spherex_qr3"
+      },
+      "targetId": "r-draconis",
+      "dataUrl": "/observations/archive-cache/r-draconis-spherex-qr3.json",
+      "sha256": "11ba44a35e6efc80063d62482a24943832b7f85371b3f3b0a6daf32c3efc74b4"
+    },
+    {
+      "query": {
+        "ra": 248.16722587208395,
+        "dec": 66.75502467262785,
+        "radius": 0.12,
+        "collection": "spherex_qr3_deep"
+      },
+      "targetId": "r-draconis",
+      "dataUrl": "/observations/archive-cache/r-draconis-spherex-qr3-deep.json",
+      "sha256": "038828e2712301496640391ef13cfb5f2fafdfb39d0c109796490d9231f887e0"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "scope": "Independent static scientific integrity audit of scoped UI update; no new scientific data processing",
+  "sourceComparison": "/workspace/work/app",
+  "reviewedUtc": "2026-11-15T05:52:19.290511+00:00",
+  "immutableGroups": {
+    "observationAssets": {
+      "fileCount": 59,
+      "byteIdentical": true,
+      "differences": []
+    },
+    "fitsSamples": {
+      "fileCount": 4,
+      "byteIdentical": true,
+      "differences": []
+    },
+    "activeMetadata": {
+      "fileCount": 4,
+      "byteIdentical": true,
+      "differences": []
+    },
+    "fitsScientificLibraries": {
+      "fileCount": 4,
+      "byteIdentical": true,
+      "differences": []
+    }
+  },
+  "earlierPackages": [
+    {
+      "file": "SPHEREx-Genuine-FITS-Samples.zip",
+      "sha256": "7cd7bcc36adc2eb83fd9f90a99d5b55050a2f2a2aa6dce9f020fe8254963fbe1",
+      "matchesPreviouslyDeliveredChecksum": true
+    },
+    {
+      "file": "SPHEREx-Final-Netlify.zip",
+      "sha256": "0f45b10f5804b77ffd461b7712a72ff7b351281e5743077e714b04651a310709",
+      "matchesPreviouslyDeliveredChecksum": true
+    },
+    {
+      "file": "SPHEREx-Final-Complete-Owner-Source.zip",
+      "sha256": "fdc8d007dc46aa507100f0c039a7f098890d5d5a8bc296b6638a7fbb30c11f28",
+      "matchesPreviouslyDeliveredChecksum": true
+    },
+    {
+      "file": "SPHEREx-Final-Editable-Source.zip",
+      "sha256": "8c64e34815312fb8f9db18a6a2a6d54f888d0377b7fd0604459b5959d6ee024b",
+      "matchesPreviouslyDeliveredChecksum": true
+    }
+  ],
+  "scientificInterface": {
+    "preparedFieldCount": 6,
+    "pairedFieldCount": 4,
+    "singleFieldCount": 2,
+    "exactCoordinatesFromInheritedManifest": true,
+    "heroUsesOnlyPreparedObservationRows": true,
+    "mapUsesOnlyPreparedObservationRows": true,
+    "filterAssertionsExecuted": {
+      "query": true,
+      "pairsOnly": true,
+      "releases": {
+        "DR1": 2,
+        "QR3": 1,
+        "QR2": 3
+      }
+    },
+    "noCandidateScoresFluxOrPhysicalDistancesExposed": true,
+    "inspectorUsesCachedHashVerifiedScientificPixels": true,
+    "singlesTargetCoreQualityFlagDisclosed": true,
+    "pairTargetDetectionNotAsserted": true,
+    "wavelengthAtFieldCenterDisclosed": true,
+    "dataReleaseHistoricalQr2Label": true,
+    "mapLabelsDirectionsAsFieldsNotFootprintPolygons": true,
+    "footerDisclaimsVerifiedDistanceAndConfirmedDetection": true
+  },
+  "publicExportReview": {
+    "directory": "/workspace/work/ui-public",
+    "profile": "public-observations",
+    "modeledDataIncluded": false,
+    "modeledCandidates": 0,
+    "modeledPairs": 0,
+    "modeledObservations": 0,
+    "originalModeledCandidateCountExcluded": 1050,
+    "spreadsheetsPresent": false,
+    "workbookGeneratedRecordFilesPresent": false,
+    "modeledCandidateImageAssetsPresent": false,
+    "sixActualFieldHelperAssertionsPassed": true,
+    "sameRealFieldHelperAndMapSourceAsOwnerCopy": true,
+    "immutableScientificAssetsMatchOriginalApp": true,
+    "compiledBundleAudit": "Not yet built at source-audit time; source excludes all modeled records."
+  },
+  "remainingObservations": [],
+  "previousChecksumsFileSha256": "e0acb2db1d8aeeee2c6f583db8b4b7e8cd2b197aa3ac5ab3ab618c53bcf471e5"
+}

@@ -1,0 +1,92 @@
+{
+  "description": "Genuine SPHEREx observations: derived native-pixel FITS upload samples",
+  "targetFieldIcrsDegrees": {
+    "ra": 76.95658639398296,
+    "dec": 30.40129178629395
+  },
+  "script": "scripts/prepare_upload_samples.py",
+  "dataDoi": "https://doi.org/10.26131/IRSA678",
+  "acknowledgement": "This publication makes use of data products from the Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer (SPHEREx), which is a joint project of the Jet Propulsion Laboratory and the California Institute of Technology, and is funded by the National Aeronautics and Space Administration.",
+  "samples": [
+    {
+      "file": "rw-aurigae-A.fits",
+      "sha256": "027af721e721419cb229bbf52bdfd854d4f9c9d70aa2cc2c1c7e413e7e250119",
+      "bytes": 109440,
+      "kind": "Derived native-pixel spatial subset; not archive-issued",
+      "observationId": "2025W36_1A_0606_2",
+      "observedAtUtc": "2025-09-03T17:24:32.428",
+      "release": "DR1",
+      "processingVersion": "7.0.5",
+      "detector": 1,
+      "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2025W36_1A/l2b-v27-2026-232/1/level2_2025W36_1A_0606_2D1_spx_l2b-v27-2026-232.fits",
+      "sourceSha256": "47d007ed71146072a38fab9b1859070ba6131e4ec002822db4310a610595478c",
+      "spectralCalibration": {
+        "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/1/spectral_wcs_D1_spx_cal-swcs-v5-2026-191.fits",
+        "sha256": "44fb48b236e25a99d42c8986da0064cc58359527e1fc76e182eda52371a1ae23"
+      },
+      "nativeOriginXY": [
+        146,
+        1185
+      ],
+      "shape": [
+        36,
+        36
+      ],
+      "wcsMaximumSeparationFromOriginalArcsec": 6.869998111961196e-11,
+      "extensions": [
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "CWAVE",
+        "CBAND"
+      ],
+      "limitations": [
+        "Native orientation retained; WCS reprojection is required for blink.",
+        "EPSF and approximate WCS-WAVE tables are omitted; this is an upload adapter sample.",
+        "Pixels have different wavelengths. Compare only wavelength-compatible overlapping pixels.",
+        "No PSF matching, covariance model or detection of motion/variability."
+      ]
+    },
+    {
+      "file": "rw-aurigae-B.fits",
+      "sha256": "0e714e3d1f1a637c08e925fe6a96ad5adf5870e68a193735be00e33b33b8bea7",
+      "bytes": 109440,
+      "kind": "Derived native-pixel spatial subset; not archive-issued",
+      "observationId": "2026W10_1A_0445_2",
+      "observedAtUtc": "2026-03-04T07:56:46.935",
+      "release": "DR1",
+      "processingVersion": "7.0.5",
+      "detector": 1,
+      "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2026W10_1A/l2b-v27-2026-229/1/level2_2026W10_1A_0445_2D1_spx_l2b-v27-2026-229.fits",
+      "sourceSha256": "2478113bc7089036ae004a43a31d885724b1f5dd0de02198a897fb2f07588b10",
+      "spectralCalibration": {
+        "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/1/spectral_wcs_D1_spx_cal-swcs-v5-2026-191.fits",
+        "sha256": "44fb48b236e25a99d42c8986da0064cc58359527e1fc76e182eda52371a1ae23"
+      },
+      "nativeOriginXY": [
+        543,
+        1156
+      ],
+      "shape": [
+        36,
+        36
+      ],
+      "wcsMaximumSeparationFromOriginalArcsec": 1.0521327438241317e-10,
+      "extensions": [
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "CWAVE",
+        "CBAND"
+      ],
+      "limitations": [
+        "Native orientation retained; WCS reprojection is required for blink.",
+        "EPSF and approximate WCS-WAVE tables are omitted; this is an upload adapter sample.",
+        "Pixels have different wavelengths. Compare only wavelength-compatible overlapping pixels.",
+        "No PSF matching, covariance model or detection of motion/variability."
+      ]
+    }
+  ]
+}

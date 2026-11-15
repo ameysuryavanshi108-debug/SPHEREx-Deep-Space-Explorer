@@ -1,0 +1,24 @@
+{
+  "id": "r-draconis-dr1-d6-single-2026w18-2a-0497-1",
+  "name": "R Draconis \u00b7 real observation",
+  "ra": 248.16722823546203,
+  "dec": 66.75502439479614,
+  "coordinateEpoch": "ICRS field centered on per-epoch proper-motion guide; no observer parallax correction",
+  "sourceRelease": "dr1",
+  "width": 64,
+  "height": 64,
+  "pixelScaleArcsec": 6.15,
+  "comparisonUnavailableReason": "Reviewed pairs failed target-quality checks. Showing one real observation with flagged pixels masked.",
+  "interpretation": "One real observation of the field around R Draconis. The target core is quality-flagged; no motion, brightness change or confirmed target detection is claimed.",
+  "frames": [
+    {
+      "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/level2/2026W18_2A/l2b-v27-2026-244/6/level2_2026W18_2A_0497_1D6_spx_l2b-v27-2026-244.fits",
+      "expectedObservationId": "2026W18_2A_0497_1",
+      "sha256": "fab39bae0604a046b1b57e6f3828416babb71844fbabc5eefaa5042f928a8780",
+      "spectralCalibration": {
+        "sourceUrl": "https://nasa-irsa-spherex.s3.us-east-1.amazonaws.com/dr1/spectral_wcs/cal-swcs-v5-2026-191/6/spectral_wcs_D6_spx_cal-swcs-v5-2026-191.fits",
+        "sha256": "19195d253892883586aa2183cb66238b32f6032ade62d490b36b85b0dd18f212"
+      }
+    }
+  ]
+}

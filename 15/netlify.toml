@@ -1,0 +1,16 @@
+[build]
+  publish = "."
+[[redirects]]
+  from = "/archive/irsa/SIA"
+  to = "https://irsa.ipac.caltech.edu/SIA"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/archive/irsa/TAP/sync"
+  to = "https://irsa.ipac.caltech.edu/TAP/sync"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

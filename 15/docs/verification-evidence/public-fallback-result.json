@@ -1,0 +1,27 @@
+{
+  "base": "http://localhost:4173",
+  "checks": [
+    {
+      "name": "Packaged authentic comparison loads while external network unavailable",
+      "passed": true,
+      "evidence": "Real observations · cached offline"
+    },
+    {
+      "name": "Missing observation pixels fail closed without substitute",
+      "passed": true,
+      "evidence": "404 science arrays: no substitute image and retry button shown"
+    },
+    {
+      "name": "Archive HTTP502 outage retains labeled saved metadata and usable prepared observations",
+      "passed": true,
+      "evidence": "Saved archive results · 2026-11-13. New observations may exist.Retry live search\nSearch status"
+    },
+    {
+      "name": "Invalid archive payload yields friendly error and retry, no simulated result",
+      "passed": true,
+      "evidence": "The archive route returned a web page instead of data. This deployment needs its archive proxy configured. A failed query does not mean observations are missing.\n\nRetry archive query\nQuery details"
+    }
+  ],
+  "errors": [],
+  "notes": "Outage/error responses intentionally injected to test failure behavior. Scientific images remain actual packaged pixels."
+}
