@@ -1,14 +1,17 @@
-SPHEREx 2.3.2 — Global Judging catalog and observatory UI
+SPHEREx Explorer — live SPLICES catalog integration
 
-This is the static public deployment. The Netlify publish directory is this folder (15/); no backend, serverless function, API key or database is required for the packaged public experience.
+This is the static public deployment. The Netlify publish directory is this folder (15/); the Candidate Explorer retrieves its catalog sample from NASA/IPAC IRSA through the existing same-origin TAP proxy route.
 
-New public assets in this release:
-- data/spherex_50_candidates.json — 50 provenance-tagged AllWISE catalog reference rows.
-- assets/global-judging-enhancements.js — homepage observatory cards, telemetry, catalog explorer, map reference layer and comparator context.
-- assets/index-BXmFav6o.css — appended styles for the new UI.
+Catalog integration:
+- The Candidate Explorer queries the public IRSA TAP table "splices".
+- It requests 50 SPLICES target-list records with coordinates, 2MASS J/H/K photometry, WISE W1-W4 photometry, selection type and catalog classifications.
+- The query is made at page load; the site does not bundle a stale AllWISE-only JSON candidate file.
+- If IRSA TAP is unavailable, the UI reports the error and provides a retry instead of substituting unrelated records.
 
-For a manual Netlify deploy, upload this folder with index.html at its root. If deploying from Git, set the base/publish directory to 15 and leave the build command empty for this static export. Existing SPA redirects and IRSA proxy redirects are retained in netlify.toml and _redirects.
+The SPLICES catalog is a target list based on broadband catalog photometry. Entries are not automatically confirmed SPHEREx detections, and WISE/2MASS magnitudes are not SPHEREx spectral measurements. The map layer is a separate coordinate-reference layer; the comparator does not claim a catalog target is matched to the displayed image.
 
-Important scientific scope: AllWISE rows are catalog references, not SPHEREx detections or confirmed Planet X candidates. The map displays them as a separate coordinate reference layer. The comparator explicitly does not assert that an AllWISE row matches an image source. See docs/DATA_PROVENANCE.md and docs/GLOBAL_JUDGING_CATALOG.md.
+For a manual Netlify deploy, upload this folder with index.html at its root. If deploying from Git, set the base/publish directory to 15 and leave the build command empty for this static export. Existing SPA redirects and IRSA proxy redirects in netlify.toml are retained.
 
-No Netlify production deployment was triggered from this repository update. Verify the Netlify deploy preview/production URL after uploading or after the connected Git deployment completes.
+Catalog source and citation:
+https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/index.html
+https://doi.org/10.26131/IRSA554
