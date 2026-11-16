@@ -1,22 +1,35 @@
 # Current data provenance
 
-The authoritative record for this final implementation is [FINAL_SCIENTIFIC_PROVENANCE.md](FINAL_SCIENTIFIC_PROVENANCE.md), with exact observation URLs, IDs, dates, releases, hashes and limitations in [FINAL_SCIENTIFIC_PROVENANCE.json](FINAL_SCIENTIFIC_PROVENANCE.json). Newly reproduced DR1 image QA is recorded in [FINAL_SCIENTIFIC_VALIDATION.json](FINAL_SCIENTIFIC_VALIDATION.json).
+The authoritative record for the SPHEREx observation implementation is [FINAL_SCIENTIFIC_PROVENANCE.md](FINAL_SCIENTIFIC_PROVENANCE.md), with exact observation URLs, IDs, dates, releases, hashes and limitations in [FINAL_SCIENTIFIC_PROVENANCE.json](FINAL_SCIENTIFIC_PROVENANCE.json). Reproduced DR1 image QA is recorded in [FINAL_SCIENTIFIC_VALIDATION.json](FINAL_SCIENTIFIC_VALIDATION.json).
 
-The preferred current-release offline demonstration is the RW Aurigae DR1 field observed on 3 September 2025 and 4 March 2026. Both source FITS files and their spectral calibration were freshly downloaded and checksum-verified during this implementation; cached frame arrays were reproduced byte for byte. This supports qualified visual inspection only, with no motion, variability or Planet X detection claim.
+The preferred current-release offline demonstration is the RW Aurigae DR1 field observed on 3 September 2025 and 4 March 2026. Both source FITS files and their spectral calibration were downloaded and checksum-verified during the implementation. This supports qualified visual inspection only, with no motion, variability or Planet X detection claim.
 
-The two small native-pixel upload samples under `public/samples/` include explicit derived-cutout provenance. No synthetic observation pixels are used. Historical QR2 caches are distinct from current DR1/QR3 archive collections. Modeled catalog rows, SIMBAD/AllWISE reference positions and decorative artwork are not confirmed SPHEREx detections.
+## Global judging catalog layer — SPLICES
 
-The supplied older provenance report is preserved in [history/DATA_PROVENANCE_2_1.md](history/DATA_PROVENANCE_2_1.md) as development history. Its release/status statements describe that earlier version, not the final implementation. Original code licensing does not relicense datasets or third-party media.
+The Candidate Explorer now queries the NASA/IPAC IRSA **SPHEREx List of Ice Sources (SPLICES)** catalog live through IRSA's Table Access Protocol (TAP). It requests 50 records from the public table named `splices`, selecting source ID, designation, J2000 coordinates, 2MASS J/H/K magnitudes, WISE W1–W4 magnitudes and uncertainties, selection type, catalog class, machine-learning class and proper name.
 
-SPHEREx / NASA / JPL-Caltech; served by Caltech/IPAC IRSA. DR1 spectral-image DOI: https://doi.org/10.26131/IRSA678. Relevant media credits and reuse conditions remain in [REFINED_ASSETS.md](REFINED_ASSETS.md); software notices remain in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The current query is:
 
+```sql
+SELECT TOP 50 source_id, designation, ra, dec,
+       J, H, K, W1, W1err, W2, W2err, W3, W3err, W4, W4err,
+       SEL_TYPE, CLASS_1, STYPE_ML, NAME
+FROM splices
+WHERE ra IS NOT NULL AND dec IS NOT NULL
+  AND W1 IS NOT NULL AND W2 IS NOT NULL
+ORDER BY source_id
+```
 
-## Global judging catalog layer (2.3.2)
+The 50 rows are a reproducible sample of the SPLICES target catalog, not a newly extracted list of detections from SPHEREx DR1 images. SPLICES is a compilation of nearly ten million spatially isolated, infrared-bright point sources selected from broadband catalog photometry and intended as a target list for SPHEREx ice-feature observations. Its source coordinates are J2000; J/H/K are 2MASS photometry and W1–W4 are WISE photometry. These magnitudes are not SPHEREx's 102 spectral channels, and an entry is not proof that the source was observed in a particular displayed SPHEREx field.
 
-`../data/spherex_50_candidates.json` contains 50 rows selected from the repository's archived NASA/IPAC IRSA AllWISE Source Catalog snapshot (`allwise_p3as_psd`) for the Epsilon Indi B reference field. The source snapshot was retrieved 2026-11-10 and contained 263 rows; 72 rows met the display-selection criterion W1−W2 ≥ 0.5 mag. The 50 rows in the new file are the first 50 qualifying designations in ascending designation order. This is a reproducible color-selected AllWISE reference subset, not a scientifically confirmed class of cold objects, not a SPHEREx detection catalog, and not a Planet X candidate list.
+The public UI displays the SPLICES positions in a separate coordinate-reference layer on the sky-map page and gives the selected catalog entry as context in the Blink Comparator. The comparator explicitly states that this is **not an image match**: no positional cross-match between a SPLICES target and the displayed SPHEREx pixels is asserted. Existing prepared SPHEREx observation pairs remain independently selected and unchanged.
 
-Each row preserves the AllWISE designation, ICRS RA/Dec, W1/W2 magnitudes and reported errors, W1−W2 color, photometric quality flag, catalog/table identity, and explicit `NASA/IPAC IRSA AllWISE Point Source` origin label. The source query URL, source snapshot timestamp and SHA-256, selection count, selection criterion, and limitations are stored at the dataset top level. The W1 and W2 catalog bands are 3.4 and 4.6 µm; they are not SPHEREx's 102 spectral channels.
+If IRSA TAP is temporarily unavailable, the UI reports the connection error and provides a retry and a link to the archive. It does not substitute unrelated or fabricated rows.
 
-The public UI displays the 50 references in a separate equirectangular coordinate layer alongside the 3D SPHEREx observation-field map. Selecting a reference opens its catalog metadata and provides a link to the Blink Comparator. The comparator context explicitly says it is **not an image match**: no positional cross-match between the AllWISE point source and the displayed SPHEREx pixels is asserted. Existing SPHEREx observation pairs remain independently selected and unchanged.
+Please cite both the SPLICES paper (Ashby et al. 2023) and dataset DOI when reusing SPLICES data:
+- Dataset: https://doi.org/10.26131/IRSA554
+- Catalog overview: https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/index.html
+- Column descriptions: https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/gator_docs/splices_colDescriptions.html
+- TAP endpoint: https://irsa.ipac.caltech.edu/TAP
 
-The homepage telemetry is computed from the loaded dataset and observation manifest: 50 catalog rows, 6 prepared comparison pairs, 1 catalog category, and 2 AllWISE catalog bands. These are interface counts, not detection counts or evidence of Planet X.
+The existing scientific disclaimer remains: this is an exploratory multi-epoch visualization tool, not a confirmed Planet X detection.
