@@ -1,29 +1,33 @@
-# Global judging catalog and observatory UI — release 2.3.2
+# Global judging catalog and observatory UI — SPLICES update
 
-## Added
+## Catalog integration
 
-- A 50-row AllWISE Source Catalog reference subset at `data/spherex_50_candidates.json`.
-- Explicit per-row origin labels and retained catalog designation, ICRS coordinates, W1/W2 magnitudes, uncertainties where available, W1−W2 color and quality flags.
-- Homepage “Explore the Observatory” cards for the 3D Celestial Map and Candidate Explorer, with representative image captions.
-- Four live telemetry cards derived from the loaded JSON and observation manifest.
-- A searchable 50-row Candidate Explorer with local RA/Dec position plot and source details.
-- A separate AllWISE reference layer on the Celestial Map page and a selected-catalog-context panel in the Blink Comparator.
+The Candidate Explorer now retrieves a reproducible 50-row sample directly from the NASA/IPAC IRSA **SPHEREx List of Ice Sources (SPLICES)** catalog using IRSA's TAP service and the public table `splices`.
 
-## Verified data counts
+The query selects:
+- SPLICES source ID and designation
+- J2000 right ascension and declination
+- 2MASS J/H/K photometry
+- WISE W1–W4 photometry and reported uncertainties
+- Selection type, catalog class, machine-learning class and proper name
 
-| Metric | Count | Meaning |
-|---|---:|---|
-| Candidate objects | 50 | AllWISE catalog reference rows |
-| Epoch pairs | 6 | Prepared SPHEREx comparison pairs in observations/manifest.json |
-| Object categories | 1 | AllWISE catalog reference class |
-| Catalog wavelengths | 2 | W1 3.4 µm and W2 4.6 µm |
+The sample is ordered by `source_id` and limited to 50 rows. It is not a static AllWISE-only snapshot. The source query is executed at page load through the existing same-origin Netlify proxy route `/archive/irsa/TAP/sync`.
 
-## Provenance and limits
+## UI integration
 
-The 50 entries were selected from the repository's archived IRSA AllWISE query snapshot (263 rows retrieved 2026-11-10). The color filter is W1−W2 ≥ 0.5 mag; 72 snapshot rows met it, and the first 50 designations in ascending order were retained. This is a visualization subset, not a validated “cold source” classification. The AllWISE W1/W2 bands are not SPHEREx's 102 spectral channels.
+- Homepage observatory cards and telemetry now describe the SPLICES target-list sample.
+- Candidate Explorer displays the 50 returned SPLICES entries, coordinates, ancillary photometry and catalog classifications.
+- Sky-map page shows a separately labeled SPLICES coordinate-reference layer.
+- Blink Comparator can show the selected SPLICES record as context, while explicitly stating that it is not an image match.
+- Existing prepared SPHEREx observation pairs and the scientific disclaimer remain unchanged.
+- If the archive query fails, the interface reports the error and offers a retry; it does not fall back to fabricated or unrelated records.
 
-Catalog references are displayed separately from SPHEREx observation fields. The comparator does not claim an AllWISE object is the source in either SPHEREx image. No motion measurement, Planet X detection, or automatic source association is claimed. The existing scientific disclaimer in the main application remains unchanged.
+## Scientific scope
 
-## Deployment
+SPLICES is a target list of nearly ten million spatially isolated, infrared-bright sources likely to exhibit ice absorption features when observed by SPHEREx. It is based on broadband catalog photometry; its 2MASS and WISE magnitudes are ancillary catalog measurements, not SPHEREx spectral measurements. A SPLICES entry is not automatically a confirmed SPHEREx detection, a measured moving object, or a Planet X candidate. The map layer does not establish that a listed target appears in a displayed SPHEREx image.
 
-This repository contains the static public export under `15/`. Netlify should publish that directory with no build command. The deploy guide is `DEPLOY_README.txt`. The repository update itself does not trigger or verify a Netlify production deployment; confirm the Netlify deploy status and test the live routes after deployment.
+Sources:
+- [NASA/IPAC IRSA SPLICES catalog](https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/index.html)
+- [SPLICES column descriptions](https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/gator_docs/splices_colDescriptions.html)
+- [SPLICES dataset DOI](https://doi.org/10.26131/IRSA554)
+- [IRSA TAP documentation](https://irsa.ipac.caltech.edu/docs/program_interface/api_catalogs.html)
