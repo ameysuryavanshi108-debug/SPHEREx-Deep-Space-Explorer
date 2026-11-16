@@ -1,5 +1,5 @@
 const ROOT=document.getElementById("root");
-let catalog=null,manifest=null,observer=null,busy=false,loading=false;
+let catalog=null,manifest=null,observer=null,busy=false,loading=false,attemptedPath=null;
 const $=(s,r=document)=>r.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const num=v=>v===null||v===undefined||String(v).trim()===""?null:Number(v);
@@ -9,7 +9,7 @@ const route=()=>location.pathname.replace(/\/+$/,"")||"/";
 const chosen=()=>new URLSearchParams(location.search).get("catalogSource");
 const archiveUrl="https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/index.html";
 const tapProxy="/archive/irsa/TAP/sync";
-const adql="SELECT TOP 50 source_id, designation, ra, dec, J, H, K, W1, W1err, W2, W2err, W3, W3err, W4, W4err, SEL_TYPE, CLASS_1, STYPE_ML, NAME FROM splices WHERE ra IS NOT NULL AND dec IS NOT NULL AND W1 IS NOT NULL AND W2 IS NOT NULL ORDER BY source_id";
+const adql="SELECT TOP 50 source_id, designation, ra, dec, J, H, K, W1, W1err, W2, W2err, W3, W3err, W4, W4err, SEL_TYPE, CLASS_1, STYPE_ML, NAME FROM splices";
 
 function parseCsvLine(line){
   const out=[];let value="",quoted=false;
@@ -56,7 +56,7 @@ function parseSplicesCsv(raw){
 }
 async function loadSplices(){
   const params=new URLSearchParams({REQUEST:"doQuery",LANG:"ADQL",FORMAT:"csv",QUERY:adql});
-  const response=await fetch(tapProxy+"?"+params.toString(),{headers:{Accept:"text/csv"},cache:"no-store"});
+  const response=await fetch(tapProxy+"?"+params.toString(),{headers:{Accept:"text/csv"},cache:"no-store",signal:AbortSignal.timeout(23000)});
   if(!response.ok)throw Error("IRSA TAP request failed (HTTP "+response.status+").");
   const raw=await response.text();
   if(/(^|\n)\s*(ERROR|QUERY_STATUS\s*=\s*ERROR)/i.test(raw))throw Error("IRSA TAP returned a query error: "+raw.slice(0,300));
@@ -167,9 +167,9 @@ function comparator(){
   page.append(panel);
 }
 function run(){if(!catalog)return;home();explorer();mapLayer();comparator()}
-function schedule(){if(busy)return;busy=true;requestAnimationFrame(()=>{busy=false;run()})}
+function schedule(){if(busy)return;busy=true;requestAnimationFrame(()=>{busy=false;if(catalog){run();return}if(route()!==attemptedPath)start()})}
 async function start(){
-  if(loading)return;loading=true;
+  if(loading||catalog)return;loading=true;attemptedPath=route();
   try{
     loadingPanel();
     const loaded=await loadSplices();catalog=loaded;
@@ -181,4 +181,9 @@ async function start(){
   }catch(e){console.error("SPLICES catalog enhancement:",e);errorPanel(e)}
   finally{loading=false}
 }
-if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start,{once:true});else start();
+function observeRoutes(){
+  if(ROOT&&!observer){observer=new MutationObserver(schedule);observer.observe(ROOT,{childList:true,subtree:true})}
+  window.addEventListener("popstate",schedule);
+  window.addEventListener("pageshow",schedule);
+}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>{observeRoutes();start()},{once:true});else{observeRoutes();start()}
