@@ -1,8 +1,8 @@
 {
-  "version": "2.3.1",
+  "version": "2.3.2",
   "profile": "public-observations",
-  "release": "CLEAN-OBSERVATION-MAP-UI",
-  "date": "2026-11-15",
+  "release": "GLOBAL-JUDGING-CATALOG-UI",
+  "date": "2026-11-16",
   "sourceCommit": null,
   "assets": [
     "dataset-BBBwF1hk.js",
@@ -10,7 +10,8 @@
     "index-BXmFav6o.css",
     "index-dZu8L8tj.js",
     "react-DKWnSxDW.js",
-    "three-BYCuAVLq.js"
+    "three-BYCuAVLq.js",
+    "global-judging-enhancements.js"
   ],
   "assetSha256": {
     "dataset-BBBwF1hk.js": "4456b48db04d98a4b9e9a3b1dab11de73d694dbc5a1a7e8612589d046d2ae52b",
@@ -19,5 +20,6 @@
     "index-dZu8L8tj.js": "5ad9e9357f5c2c14184a23df7245a979eaa9b8eed4d675e1b519f55b31726779",
     "react-DKWnSxDW.js": "9099e5aa9bdc1c8cb211fb1e99b8c3762e8deb9f9115af25f6c3632db53f205c",
     "three-BYCuAVLq.js": "633bb6ac4307dcb50c308a607b051309ed06d4ee3a08fdd56c9b030b4a3c844f"
-  }
+  },
+  "notes": "Static public deployment enhancement: 50-row AllWISE reference catalog, homepage observatory cards, telemetry, candidate explorer, separate celestial-map catalog layer and comparator context. Existing SPHEREx observation files and scientific disclaimer retained."
 }
