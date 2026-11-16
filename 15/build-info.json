@@ -1,7 +1,7 @@
 {
-  "version": "2.3.2",
+  "version": "2.3.3",
   "profile": "public-observations",
-  "release": "GLOBAL-JUDGING-CATALOG-UI",
+  "release": "LIVE-SPHEREX-SPLICES-CATALOG",
   "date": "2026-11-16",
   "sourceCommit": null,
   "assets": [
@@ -21,5 +21,5 @@
     "react-DKWnSxDW.js": "9099e5aa9bdc1c8cb211fb1e99b8c3762e8deb9f9115af25f6c3632db53f205c",
     "three-BYCuAVLq.js": "633bb6ac4307dcb50c308a607b051309ed06d4ee3a08fdd56c9b030b4a3c844f"
   },
-  "notes": "Static public deployment enhancement: 50-row AllWISE reference catalog, homepage observatory cards, telemetry, candidate explorer, separate celestial-map catalog layer and comparator context. Existing SPHEREx observation files and scientific disclaimer retained."
+  "notes": "Candidate Explorer loads 50 SPLICES target-list records live from NASA/IPAC IRSA TAP. SPLICES photometry is ancillary 2MASS/WISE catalog data, not SPHEREx spectra or proof of observation. Homepage cards, telemetry, sky-map reference layer and comparator context are updated; existing SPHEREx observations and scientific disclaimer are retained."
 }
